@@ -67,3 +67,22 @@ jobs:
             --source https://gitverse.ru/api/packages/${{ github.repository_owner }}/nuget/index.json \
             --api-key ${{ secrets.NUGET_TOKEN }} \
             --skip-duplicate
+
+  publish-nuget:
+    needs: pack
+    if: contains(github.server_url, 'github.com')
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: nuget-package
+          path: packages
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Push to NuGet.org
+        run: dotnet nuget push packages/*.nupkg --source https://api.nuget.org/v3/index.json --skip-duplicate
