@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Version>0.1.0</Version>
+
+    <PackageId>Zaya.Primitives</PackageId>
+    <Description>Fundamental types for the Zaya ecosystem: pixel formats, geometry primitives.</Description>
+    <PackageTags>pixel-format;geometry;primitives</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Authors>SHTrassEr</Authors>
+    <RepositoryUrl>https://github.com/shtrasser-dev/Zaya.Primitives</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://shtrasser-dev.github.io/Zaya.Primitives</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <Target Name="Docs">
+    <Exec Command="dotnet docfx docfx.json" WorkingDirectory="$(MSBuildThisFileDirectory)..\.." />
+  </Target>
+
+</Project>

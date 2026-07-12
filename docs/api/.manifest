@@ -1,0 +1,14 @@
+{
+  "Zaya.Primitives": "Zaya.Primitives.yml",
+  "Zaya.Primitives.PixelFormat": "Zaya.Primitives.PixelFormat.yml",
+  "Zaya.Primitives.PixelFormat.Bgr24": "Zaya.Primitives.PixelFormat.yml",
+  "Zaya.Primitives.PixelFormat.Bgra32": "Zaya.Primitives.PixelFormat.yml",
+  "Zaya.Primitives.PixelFormat.BytesPerPixel": "Zaya.Primitives.PixelFormat.yml",
+  "Zaya.Primitives.PixelFormat.Equals(System.Object)": "Zaya.Primitives.PixelFormat.yml",
+  "Zaya.Primitives.PixelFormat.GetHashCode": "Zaya.Primitives.PixelFormat.yml",
+  "Zaya.Primitives.PixelFormat.Gray8": "Zaya.Primitives.PixelFormat.yml",
+  "Zaya.Primitives.PixelFormat.Name": "Zaya.Primitives.PixelFormat.yml",
+  "Zaya.Primitives.PixelFormat.Rgb24": "Zaya.Primitives.PixelFormat.yml",
+  "Zaya.Primitives.PixelFormat.op_Equality(Zaya.Primitives.PixelFormat,Zaya.Primitives.PixelFormat)": "Zaya.Primitives.PixelFormat.yml",
+  "Zaya.Primitives.PixelFormat.op_Inequality(Zaya.Primitives.PixelFormat,Zaya.Primitives.PixelFormat)": "Zaya.Primitives.PixelFormat.yml"
+}

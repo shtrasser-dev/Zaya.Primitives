@@ -1,0 +1,10 @@
+### YamlMime:TableOfContent
+items:
+- uid: Zaya.Primitives
+  name: Zaya.Primitives
+  type: Namespace
+  items:
+  - uid: Zaya.Primitives.PixelFormat
+    name: PixelFormat
+    type: Struct
+memberLayout: SamePage

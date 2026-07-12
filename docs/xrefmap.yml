@@ -1,0 +1,132 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Zaya.Primitives
+  name: Zaya.Primitives
+  href: api/Zaya.Primitives.html
+  commentId: N:Zaya.Primitives
+  fullName: Zaya.Primitives
+  nameWithType: Zaya.Primitives
+- uid: Zaya.Primitives.PixelFormat
+  name: PixelFormat
+  href: api/Zaya.Primitives.PixelFormat.html
+  commentId: T:Zaya.Primitives.PixelFormat
+  fullName: Zaya.Primitives.PixelFormat
+  nameWithType: PixelFormat
+- uid: Zaya.Primitives.PixelFormat.Bgr24
+  name: Bgr24
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_Bgr24
+  commentId: F:Zaya.Primitives.PixelFormat.Bgr24
+  fullName: Zaya.Primitives.PixelFormat.Bgr24
+  nameWithType: PixelFormat.Bgr24
+- uid: Zaya.Primitives.PixelFormat.Bgra32
+  name: Bgra32
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_Bgra32
+  commentId: F:Zaya.Primitives.PixelFormat.Bgra32
+  fullName: Zaya.Primitives.PixelFormat.Bgra32
+  nameWithType: PixelFormat.Bgra32
+- uid: Zaya.Primitives.PixelFormat.BytesPerPixel
+  name: BytesPerPixel
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_BytesPerPixel
+  commentId: P:Zaya.Primitives.PixelFormat.BytesPerPixel
+  fullName: Zaya.Primitives.PixelFormat.BytesPerPixel
+  nameWithType: PixelFormat.BytesPerPixel
+- uid: Zaya.Primitives.PixelFormat.BytesPerPixel*
+  name: BytesPerPixel
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_BytesPerPixel_
+  commentId: Overload:Zaya.Primitives.PixelFormat.BytesPerPixel
+  isSpec: "True"
+  fullName: Zaya.Primitives.PixelFormat.BytesPerPixel
+  nameWithType: PixelFormat.BytesPerPixel
+- uid: Zaya.Primitives.PixelFormat.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_Equals_System_Object_
+  commentId: M:Zaya.Primitives.PixelFormat.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Zaya.Primitives.PixelFormat.Equals(object?)
+  fullName.vb: Zaya.Primitives.PixelFormat.Equals(Object)
+  nameWithType: PixelFormat.Equals(object?)
+  nameWithType.vb: PixelFormat.Equals(Object)
+- uid: Zaya.Primitives.PixelFormat.Equals*
+  name: Equals
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_Equals_
+  commentId: Overload:Zaya.Primitives.PixelFormat.Equals
+  isSpec: "True"
+  fullName: Zaya.Primitives.PixelFormat.Equals
+  nameWithType: PixelFormat.Equals
+- uid: Zaya.Primitives.PixelFormat.GetHashCode
+  name: GetHashCode()
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_GetHashCode
+  commentId: M:Zaya.Primitives.PixelFormat.GetHashCode
+  fullName: Zaya.Primitives.PixelFormat.GetHashCode()
+  nameWithType: PixelFormat.GetHashCode()
+- uid: Zaya.Primitives.PixelFormat.GetHashCode*
+  name: GetHashCode
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_GetHashCode_
+  commentId: Overload:Zaya.Primitives.PixelFormat.GetHashCode
+  isSpec: "True"
+  fullName: Zaya.Primitives.PixelFormat.GetHashCode
+  nameWithType: PixelFormat.GetHashCode
+- uid: Zaya.Primitives.PixelFormat.Gray8
+  name: Gray8
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_Gray8
+  commentId: F:Zaya.Primitives.PixelFormat.Gray8
+  fullName: Zaya.Primitives.PixelFormat.Gray8
+  nameWithType: PixelFormat.Gray8
+- uid: Zaya.Primitives.PixelFormat.Name
+  name: Name
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_Name
+  commentId: P:Zaya.Primitives.PixelFormat.Name
+  fullName: Zaya.Primitives.PixelFormat.Name
+  nameWithType: PixelFormat.Name
+- uid: Zaya.Primitives.PixelFormat.Name*
+  name: Name
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_Name_
+  commentId: Overload:Zaya.Primitives.PixelFormat.Name
+  isSpec: "True"
+  fullName: Zaya.Primitives.PixelFormat.Name
+  nameWithType: PixelFormat.Name
+- uid: Zaya.Primitives.PixelFormat.Rgb24
+  name: Rgb24
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_Rgb24
+  commentId: F:Zaya.Primitives.PixelFormat.Rgb24
+  fullName: Zaya.Primitives.PixelFormat.Rgb24
+  nameWithType: PixelFormat.Rgb24
+- uid: Zaya.Primitives.PixelFormat.op_Equality(Zaya.Primitives.PixelFormat,Zaya.Primitives.PixelFormat)
+  name: operator ==(PixelFormat, PixelFormat)
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_op_Equality_Zaya_Primitives_PixelFormat_Zaya_Primitives_PixelFormat_
+  commentId: M:Zaya.Primitives.PixelFormat.op_Equality(Zaya.Primitives.PixelFormat,Zaya.Primitives.PixelFormat)
+  name.vb: =(PixelFormat, PixelFormat)
+  fullName: Zaya.Primitives.PixelFormat.operator ==(Zaya.Primitives.PixelFormat, Zaya.Primitives.PixelFormat)
+  fullName.vb: Zaya.Primitives.PixelFormat.=(Zaya.Primitives.PixelFormat, Zaya.Primitives.PixelFormat)
+  nameWithType: PixelFormat.operator ==(PixelFormat, PixelFormat)
+  nameWithType.vb: PixelFormat.=(PixelFormat, PixelFormat)
+- uid: Zaya.Primitives.PixelFormat.op_Equality*
+  name: operator ==
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_op_Equality_
+  commentId: Overload:Zaya.Primitives.PixelFormat.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: Zaya.Primitives.PixelFormat.operator ==
+  fullName.vb: Zaya.Primitives.PixelFormat.=
+  nameWithType: PixelFormat.operator ==
+  nameWithType.vb: PixelFormat.=
+- uid: Zaya.Primitives.PixelFormat.op_Inequality(Zaya.Primitives.PixelFormat,Zaya.Primitives.PixelFormat)
+  name: operator !=(PixelFormat, PixelFormat)
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_op_Inequality_Zaya_Primitives_PixelFormat_Zaya_Primitives_PixelFormat_
+  commentId: M:Zaya.Primitives.PixelFormat.op_Inequality(Zaya.Primitives.PixelFormat,Zaya.Primitives.PixelFormat)
+  name.vb: <>(PixelFormat, PixelFormat)
+  fullName: Zaya.Primitives.PixelFormat.operator !=(Zaya.Primitives.PixelFormat, Zaya.Primitives.PixelFormat)
+  fullName.vb: Zaya.Primitives.PixelFormat.<>(Zaya.Primitives.PixelFormat, Zaya.Primitives.PixelFormat)
+  nameWithType: PixelFormat.operator !=(PixelFormat, PixelFormat)
+  nameWithType.vb: PixelFormat.<>(PixelFormat, PixelFormat)
+- uid: Zaya.Primitives.PixelFormat.op_Inequality*
+  name: operator !=
+  href: api/Zaya.Primitives.PixelFormat.html#Zaya_Primitives_PixelFormat_op_Inequality_
+  commentId: Overload:Zaya.Primitives.PixelFormat.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: Zaya.Primitives.PixelFormat.operator !=
+  fullName.vb: Zaya.Primitives.PixelFormat.<>
+  nameWithType: PixelFormat.operator !=
+  nameWithType.vb: PixelFormat.<>

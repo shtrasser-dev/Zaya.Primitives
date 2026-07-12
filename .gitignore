@@ -1,0 +1,19 @@
+**/bin/
+**/obj/
+
+**/.vs/
+**/.vscode/
+*.user
+*.suo
+*.userprefs
+
+_ReSharper*/
+*.DotSettings.user
+
+TestResults/
+*.trx
+
+# Documentation source maps
+docs/**/*.js.map
+
+

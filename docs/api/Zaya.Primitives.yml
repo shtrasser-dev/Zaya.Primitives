@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zaya.Primitives
+  commentId: N:Zaya.Primitives
+  id: Zaya.Primitives
+  children:
+  - Zaya.Primitives.PixelFormat
+  langs:
+  - csharp
+  - vb
+  name: Zaya.Primitives
+  nameWithType: Zaya.Primitives
+  fullName: Zaya.Primitives
+  type: Namespace
+  assemblies:
+  - Zaya.Primitives
+references:
+- uid: Zaya.Primitives.PixelFormat
+  commentId: T:Zaya.Primitives.PixelFormat
+  parent: Zaya.Primitives
+  href: Zaya.Primitives.PixelFormat.html
+  name: PixelFormat
+  nameWithType: PixelFormat
+  fullName: Zaya.Primitives.PixelFormat
+- uid: Zaya.Primitives
+  commentId: N:Zaya.Primitives
+  href: Zaya.html
+  name: Zaya.Primitives
+  nameWithType: Zaya.Primitives
+  fullName: Zaya.Primitives
+  spec.csharp:
+  - uid: Zaya
+    name: Zaya
+    href: Zaya.html
+  - name: .
+  - uid: Zaya.Primitives
+    name: Primitives
+    href: Zaya.Primitives.html
+  spec.vb:
+  - uid: Zaya
+    name: Zaya
+    href: Zaya.html
+  - name: .
+  - uid: Zaya.Primitives
+    name: Primitives
+    href: Zaya.Primitives.html
