@@ -4,6 +4,132 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/api/Zaya.Primitives.BooleanSettingDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zaya.Primitives.BooleanSettingDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zaya.Primitives.BooleanSettingDescriptor",
+      "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.BooleanSettingDescriptor.yml\" sourcestartlinenumber=\"1\">Descriptor for a boolean toggle setting. Rendered as a checkbox.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Zaya.Primitives.DirectoryPathSettingDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zaya.Primitives.DirectoryPathSettingDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zaya.Primitives.DirectoryPathSettingDescriptor",
+      "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.DirectoryPathSettingDescriptor.yml\" sourcestartlinenumber=\"1\">Descriptor for a directory path setting. Rendered as a text box with a &quot;Browse...&quot; button.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Zaya.Primitives.EnumOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zaya.Primitives.EnumOption.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zaya.Primitives.EnumOption",
+      "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.EnumOption.yml\" sourcestartlinenumber=\"1\">Represents a single option in an enum-style setting, pairing a machine-readable value\nwith a localizable display name and optional description.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Zaya.Primitives.EnumSettingDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zaya.Primitives.EnumSettingDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zaya.Primitives.EnumSettingDescriptor",
+      "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.EnumSettingDescriptor.yml\" sourcestartlinenumber=\"1\">Descriptor for a dropdown / combo-box setting. The <xref href=\"Zaya.Primitives.EnumSettingDescriptor.Options\" data-throw-if-not-resolved=\"false\"></xref> list defines the available choices.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Zaya.Primitives.FilePathSettingDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zaya.Primitives.FilePathSettingDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zaya.Primitives.FilePathSettingDescriptor",
+      "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.FilePathSettingDescriptor.yml\" sourcestartlinenumber=\"1\">Descriptor for a file path setting. Rendered as a text box with a &quot;Browse...&quot; button.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Zaya.Primitives.IntegerSettingDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zaya.Primitives.IntegerSettingDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zaya.Primitives.IntegerSettingDescriptor",
+      "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.IntegerSettingDescriptor.yml\" sourcestartlinenumber=\"1\">Descriptor for an integer numeric setting. Supports min/max range clamping.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Zaya.Primitives.LocalizedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zaya.Primitives.LocalizedException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zaya.Primitives.LocalizedException",
+      "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.LocalizedException.yml\" sourcestartlinenumber=\"1\">Base class for exceptions that carry a localizable user-facing message.\nSubclasses override <xref href=\"Zaya.Primitives.LocalizedException.GetLocalizedMessage(System.Globalization.CultureInfo)\" data-throw-if-not-resolved=\"false\"></xref> to resolve translations.\nThe constructor receives only a localization key; the default culture resource file is the source of strings.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Zaya.Primitives.LocalizedString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zaya.Primitives.LocalizedString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zaya.Primitives.LocalizedString",
+      "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.LocalizedString.yml\" sourcestartlinenumber=\"1\">Represents a string that can be localized. Supports two modes:</p>\n<ul><li>Localized via a resolver function (typically a .resx <code>ResourceManager</code>).</li><li>Invariant — created via <xref href=\"Zaya.Primitives.LocalizedString.Invariant(System.String)\" data-throw-if-not-resolved=\"false\"></xref> and never translated.</li></ul>\n<p sourcefile=\"docs/api/Zaya.Primitives.LocalizedString.yml\" sourcestartlinenumber=\"5\">All source strings live in resource files; no English defaults are embedded in code.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Zaya.Primitives.PasswordSettingDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zaya.Primitives.PasswordSettingDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zaya.Primitives.PasswordSettingDescriptor",
+      "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.PasswordSettingDescriptor.yml\" sourcestartlinenumber=\"1\">Descriptor for a password setting. Rendered as a masked text box.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/api/Zaya.Primitives.PixelFormat.yml",
       "output": {
         ".html": {
@@ -15,6 +141,48 @@
       "IsMRef": true,
       "Title": "Zaya.Primitives.PixelFormat",
       "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.PixelFormat.yml\" sourcestartlinenumber=\"1\">Represents a pixel format with conversion methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Zaya.Primitives.SettingDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zaya.Primitives.SettingDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zaya.Primitives.SettingDescriptor",
+      "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.SettingDescriptor.yml\" sourcestartlinenumber=\"1\">Abstract base class for describing a configurable engine setting.\nSubclasses carry type-specific properties (e.g. <xref href=\"Zaya.Primitives.StringSettingDescriptor.MinLength\" data-throw-if-not-resolved=\"false\"></xref>,\n<xref href=\"Zaya.Primitives.IntegerSettingDescriptor.MinValue\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"Zaya.Primitives.EnumSettingDescriptor.Options\" data-throw-if-not-resolved=\"false\"></xref>).\nHosts use pattern matching on the concrete type to render the appropriate UI control.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Zaya.Primitives.StringSettingDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zaya.Primitives.StringSettingDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zaya.Primitives.StringSettingDescriptor",
+      "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.StringSettingDescriptor.yml\" sourcestartlinenumber=\"1\">Descriptor for a free-text string setting. Supports min/max length and optional regex validation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Zaya.Primitives.UrlSettingDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zaya.Primitives.UrlSettingDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zaya.Primitives.UrlSettingDescriptor",
+      "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.UrlSettingDescriptor.yml\" sourcestartlinenumber=\"1\">Descriptor for a URL setting. Rendered as a text box; the host may validate via <xref href=\"Zaya.Primitives.UrlSettingDescriptor.RegexPattern\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",

@@ -5,11 +5,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
 
     <PackageId>Zaya.Primitives</PackageId>
-    <Description>Fundamental types for the Zaya ecosystem: pixel formats, geometry primitives.</Description>
-    <PackageTags>pixel-format;geometry;primitives</PackageTags>
+    <Description>Fundamental types for the Zaya ecosystem: pixel formats, plugin settings, localization.</Description>
+    <PackageTags>pixel-format;settings;localization;primitives</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Authors>SHTrassEr</Authors>

@@ -7,6 +7,468 @@ references:
   commentId: N:Zaya.Primitives
   fullName: Zaya.Primitives
   nameWithType: Zaya.Primitives
+- uid: Zaya.Primitives.BooleanSettingDescriptor
+  name: BooleanSettingDescriptor
+  href: api/Zaya.Primitives.BooleanSettingDescriptor.html
+  commentId: T:Zaya.Primitives.BooleanSettingDescriptor
+  fullName: Zaya.Primitives.BooleanSettingDescriptor
+  nameWithType: BooleanSettingDescriptor
+- uid: Zaya.Primitives.BooleanSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name: BooleanSettingDescriptor(string, LocalizedString)
+  href: api/Zaya.Primitives.BooleanSettingDescriptor.html#Zaya_Primitives_BooleanSettingDescriptor__ctor_System_String_Zaya_Primitives_LocalizedString_
+  commentId: M:Zaya.Primitives.BooleanSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name.vb: New(String, LocalizedString)
+  fullName: Zaya.Primitives.BooleanSettingDescriptor.BooleanSettingDescriptor(string, Zaya.Primitives.LocalizedString)
+  fullName.vb: Zaya.Primitives.BooleanSettingDescriptor.New(String, Zaya.Primitives.LocalizedString)
+  nameWithType: BooleanSettingDescriptor.BooleanSettingDescriptor(string, LocalizedString)
+  nameWithType.vb: BooleanSettingDescriptor.New(String, LocalizedString)
+- uid: Zaya.Primitives.BooleanSettingDescriptor.#ctor*
+  name: BooleanSettingDescriptor
+  href: api/Zaya.Primitives.BooleanSettingDescriptor.html#Zaya_Primitives_BooleanSettingDescriptor__ctor_
+  commentId: Overload:Zaya.Primitives.BooleanSettingDescriptor.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Zaya.Primitives.BooleanSettingDescriptor.BooleanSettingDescriptor
+  fullName.vb: Zaya.Primitives.BooleanSettingDescriptor.New
+  nameWithType: BooleanSettingDescriptor.BooleanSettingDescriptor
+  nameWithType.vb: BooleanSettingDescriptor.New
+- uid: Zaya.Primitives.BooleanSettingDescriptor.DefaultValue
+  name: DefaultValue
+  href: api/Zaya.Primitives.BooleanSettingDescriptor.html#Zaya_Primitives_BooleanSettingDescriptor_DefaultValue
+  commentId: P:Zaya.Primitives.BooleanSettingDescriptor.DefaultValue
+  fullName: Zaya.Primitives.BooleanSettingDescriptor.DefaultValue
+  nameWithType: BooleanSettingDescriptor.DefaultValue
+- uid: Zaya.Primitives.BooleanSettingDescriptor.DefaultValue*
+  name: DefaultValue
+  href: api/Zaya.Primitives.BooleanSettingDescriptor.html#Zaya_Primitives_BooleanSettingDescriptor_DefaultValue_
+  commentId: Overload:Zaya.Primitives.BooleanSettingDescriptor.DefaultValue
+  isSpec: "True"
+  fullName: Zaya.Primitives.BooleanSettingDescriptor.DefaultValue
+  nameWithType: BooleanSettingDescriptor.DefaultValue
+- uid: Zaya.Primitives.DirectoryPathSettingDescriptor
+  name: DirectoryPathSettingDescriptor
+  href: api/Zaya.Primitives.DirectoryPathSettingDescriptor.html
+  commentId: T:Zaya.Primitives.DirectoryPathSettingDescriptor
+  fullName: Zaya.Primitives.DirectoryPathSettingDescriptor
+  nameWithType: DirectoryPathSettingDescriptor
+- uid: Zaya.Primitives.DirectoryPathSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name: DirectoryPathSettingDescriptor(string, LocalizedString)
+  href: api/Zaya.Primitives.DirectoryPathSettingDescriptor.html#Zaya_Primitives_DirectoryPathSettingDescriptor__ctor_System_String_Zaya_Primitives_LocalizedString_
+  commentId: M:Zaya.Primitives.DirectoryPathSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name.vb: New(String, LocalizedString)
+  fullName: Zaya.Primitives.DirectoryPathSettingDescriptor.DirectoryPathSettingDescriptor(string, Zaya.Primitives.LocalizedString)
+  fullName.vb: Zaya.Primitives.DirectoryPathSettingDescriptor.New(String, Zaya.Primitives.LocalizedString)
+  nameWithType: DirectoryPathSettingDescriptor.DirectoryPathSettingDescriptor(string, LocalizedString)
+  nameWithType.vb: DirectoryPathSettingDescriptor.New(String, LocalizedString)
+- uid: Zaya.Primitives.DirectoryPathSettingDescriptor.#ctor*
+  name: DirectoryPathSettingDescriptor
+  href: api/Zaya.Primitives.DirectoryPathSettingDescriptor.html#Zaya_Primitives_DirectoryPathSettingDescriptor__ctor_
+  commentId: Overload:Zaya.Primitives.DirectoryPathSettingDescriptor.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Zaya.Primitives.DirectoryPathSettingDescriptor.DirectoryPathSettingDescriptor
+  fullName.vb: Zaya.Primitives.DirectoryPathSettingDescriptor.New
+  nameWithType: DirectoryPathSettingDescriptor.DirectoryPathSettingDescriptor
+  nameWithType.vb: DirectoryPathSettingDescriptor.New
+- uid: Zaya.Primitives.DirectoryPathSettingDescriptor.DefaultValue
+  name: DefaultValue
+  href: api/Zaya.Primitives.DirectoryPathSettingDescriptor.html#Zaya_Primitives_DirectoryPathSettingDescriptor_DefaultValue
+  commentId: P:Zaya.Primitives.DirectoryPathSettingDescriptor.DefaultValue
+  fullName: Zaya.Primitives.DirectoryPathSettingDescriptor.DefaultValue
+  nameWithType: DirectoryPathSettingDescriptor.DefaultValue
+- uid: Zaya.Primitives.DirectoryPathSettingDescriptor.DefaultValue*
+  name: DefaultValue
+  href: api/Zaya.Primitives.DirectoryPathSettingDescriptor.html#Zaya_Primitives_DirectoryPathSettingDescriptor_DefaultValue_
+  commentId: Overload:Zaya.Primitives.DirectoryPathSettingDescriptor.DefaultValue
+  isSpec: "True"
+  fullName: Zaya.Primitives.DirectoryPathSettingDescriptor.DefaultValue
+  nameWithType: DirectoryPathSettingDescriptor.DefaultValue
+- uid: Zaya.Primitives.EnumOption
+  name: EnumOption
+  href: api/Zaya.Primitives.EnumOption.html
+  commentId: T:Zaya.Primitives.EnumOption
+  fullName: Zaya.Primitives.EnumOption
+  nameWithType: EnumOption
+- uid: Zaya.Primitives.EnumOption.#ctor(System.String,Zaya.Primitives.LocalizedString,Zaya.Primitives.LocalizedString)
+  name: EnumOption(string, LocalizedString, LocalizedString?)
+  href: api/Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption__ctor_System_String_Zaya_Primitives_LocalizedString_Zaya_Primitives_LocalizedString_
+  commentId: M:Zaya.Primitives.EnumOption.#ctor(System.String,Zaya.Primitives.LocalizedString,Zaya.Primitives.LocalizedString)
+  name.vb: New(String, LocalizedString, LocalizedString)
+  fullName: Zaya.Primitives.EnumOption.EnumOption(string, Zaya.Primitives.LocalizedString, Zaya.Primitives.LocalizedString?)
+  fullName.vb: Zaya.Primitives.EnumOption.New(String, Zaya.Primitives.LocalizedString, Zaya.Primitives.LocalizedString)
+  nameWithType: EnumOption.EnumOption(string, LocalizedString, LocalizedString?)
+  nameWithType.vb: EnumOption.New(String, LocalizedString, LocalizedString)
+- uid: Zaya.Primitives.EnumOption.#ctor*
+  name: EnumOption
+  href: api/Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption__ctor_
+  commentId: Overload:Zaya.Primitives.EnumOption.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Zaya.Primitives.EnumOption.EnumOption
+  fullName.vb: Zaya.Primitives.EnumOption.New
+  nameWithType: EnumOption.EnumOption
+  nameWithType.vb: EnumOption.New
+- uid: Zaya.Primitives.EnumOption.Description
+  name: Description
+  href: api/Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption_Description
+  commentId: P:Zaya.Primitives.EnumOption.Description
+  fullName: Zaya.Primitives.EnumOption.Description
+  nameWithType: EnumOption.Description
+- uid: Zaya.Primitives.EnumOption.Description*
+  name: Description
+  href: api/Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption_Description_
+  commentId: Overload:Zaya.Primitives.EnumOption.Description
+  isSpec: "True"
+  fullName: Zaya.Primitives.EnumOption.Description
+  nameWithType: EnumOption.Description
+- uid: Zaya.Primitives.EnumOption.DisplayName
+  name: DisplayName
+  href: api/Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption_DisplayName
+  commentId: P:Zaya.Primitives.EnumOption.DisplayName
+  fullName: Zaya.Primitives.EnumOption.DisplayName
+  nameWithType: EnumOption.DisplayName
+- uid: Zaya.Primitives.EnumOption.DisplayName*
+  name: DisplayName
+  href: api/Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption_DisplayName_
+  commentId: Overload:Zaya.Primitives.EnumOption.DisplayName
+  isSpec: "True"
+  fullName: Zaya.Primitives.EnumOption.DisplayName
+  nameWithType: EnumOption.DisplayName
+- uid: Zaya.Primitives.EnumOption.Value
+  name: Value
+  href: api/Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption_Value
+  commentId: P:Zaya.Primitives.EnumOption.Value
+  fullName: Zaya.Primitives.EnumOption.Value
+  nameWithType: EnumOption.Value
+- uid: Zaya.Primitives.EnumOption.Value*
+  name: Value
+  href: api/Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption_Value_
+  commentId: Overload:Zaya.Primitives.EnumOption.Value
+  isSpec: "True"
+  fullName: Zaya.Primitives.EnumOption.Value
+  nameWithType: EnumOption.Value
+- uid: Zaya.Primitives.EnumSettingDescriptor
+  name: EnumSettingDescriptor
+  href: api/Zaya.Primitives.EnumSettingDescriptor.html
+  commentId: T:Zaya.Primitives.EnumSettingDescriptor
+  fullName: Zaya.Primitives.EnumSettingDescriptor
+  nameWithType: EnumSettingDescriptor
+- uid: Zaya.Primitives.EnumSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name: EnumSettingDescriptor(string, LocalizedString)
+  href: api/Zaya.Primitives.EnumSettingDescriptor.html#Zaya_Primitives_EnumSettingDescriptor__ctor_System_String_Zaya_Primitives_LocalizedString_
+  commentId: M:Zaya.Primitives.EnumSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name.vb: New(String, LocalizedString)
+  fullName: Zaya.Primitives.EnumSettingDescriptor.EnumSettingDescriptor(string, Zaya.Primitives.LocalizedString)
+  fullName.vb: Zaya.Primitives.EnumSettingDescriptor.New(String, Zaya.Primitives.LocalizedString)
+  nameWithType: EnumSettingDescriptor.EnumSettingDescriptor(string, LocalizedString)
+  nameWithType.vb: EnumSettingDescriptor.New(String, LocalizedString)
+- uid: Zaya.Primitives.EnumSettingDescriptor.#ctor*
+  name: EnumSettingDescriptor
+  href: api/Zaya.Primitives.EnumSettingDescriptor.html#Zaya_Primitives_EnumSettingDescriptor__ctor_
+  commentId: Overload:Zaya.Primitives.EnumSettingDescriptor.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Zaya.Primitives.EnumSettingDescriptor.EnumSettingDescriptor
+  fullName.vb: Zaya.Primitives.EnumSettingDescriptor.New
+  nameWithType: EnumSettingDescriptor.EnumSettingDescriptor
+  nameWithType.vb: EnumSettingDescriptor.New
+- uid: Zaya.Primitives.EnumSettingDescriptor.DefaultValue
+  name: DefaultValue
+  href: api/Zaya.Primitives.EnumSettingDescriptor.html#Zaya_Primitives_EnumSettingDescriptor_DefaultValue
+  commentId: P:Zaya.Primitives.EnumSettingDescriptor.DefaultValue
+  fullName: Zaya.Primitives.EnumSettingDescriptor.DefaultValue
+  nameWithType: EnumSettingDescriptor.DefaultValue
+- uid: Zaya.Primitives.EnumSettingDescriptor.DefaultValue*
+  name: DefaultValue
+  href: api/Zaya.Primitives.EnumSettingDescriptor.html#Zaya_Primitives_EnumSettingDescriptor_DefaultValue_
+  commentId: Overload:Zaya.Primitives.EnumSettingDescriptor.DefaultValue
+  isSpec: "True"
+  fullName: Zaya.Primitives.EnumSettingDescriptor.DefaultValue
+  nameWithType: EnumSettingDescriptor.DefaultValue
+- uid: Zaya.Primitives.EnumSettingDescriptor.Options
+  name: Options
+  href: api/Zaya.Primitives.EnumSettingDescriptor.html#Zaya_Primitives_EnumSettingDescriptor_Options
+  commentId: P:Zaya.Primitives.EnumSettingDescriptor.Options
+  fullName: Zaya.Primitives.EnumSettingDescriptor.Options
+  nameWithType: EnumSettingDescriptor.Options
+- uid: Zaya.Primitives.EnumSettingDescriptor.Options*
+  name: Options
+  href: api/Zaya.Primitives.EnumSettingDescriptor.html#Zaya_Primitives_EnumSettingDescriptor_Options_
+  commentId: Overload:Zaya.Primitives.EnumSettingDescriptor.Options
+  isSpec: "True"
+  fullName: Zaya.Primitives.EnumSettingDescriptor.Options
+  nameWithType: EnumSettingDescriptor.Options
+- uid: Zaya.Primitives.FilePathSettingDescriptor
+  name: FilePathSettingDescriptor
+  href: api/Zaya.Primitives.FilePathSettingDescriptor.html
+  commentId: T:Zaya.Primitives.FilePathSettingDescriptor
+  fullName: Zaya.Primitives.FilePathSettingDescriptor
+  nameWithType: FilePathSettingDescriptor
+- uid: Zaya.Primitives.FilePathSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name: FilePathSettingDescriptor(string, LocalizedString)
+  href: api/Zaya.Primitives.FilePathSettingDescriptor.html#Zaya_Primitives_FilePathSettingDescriptor__ctor_System_String_Zaya_Primitives_LocalizedString_
+  commentId: M:Zaya.Primitives.FilePathSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name.vb: New(String, LocalizedString)
+  fullName: Zaya.Primitives.FilePathSettingDescriptor.FilePathSettingDescriptor(string, Zaya.Primitives.LocalizedString)
+  fullName.vb: Zaya.Primitives.FilePathSettingDescriptor.New(String, Zaya.Primitives.LocalizedString)
+  nameWithType: FilePathSettingDescriptor.FilePathSettingDescriptor(string, LocalizedString)
+  nameWithType.vb: FilePathSettingDescriptor.New(String, LocalizedString)
+- uid: Zaya.Primitives.FilePathSettingDescriptor.#ctor*
+  name: FilePathSettingDescriptor
+  href: api/Zaya.Primitives.FilePathSettingDescriptor.html#Zaya_Primitives_FilePathSettingDescriptor__ctor_
+  commentId: Overload:Zaya.Primitives.FilePathSettingDescriptor.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Zaya.Primitives.FilePathSettingDescriptor.FilePathSettingDescriptor
+  fullName.vb: Zaya.Primitives.FilePathSettingDescriptor.New
+  nameWithType: FilePathSettingDescriptor.FilePathSettingDescriptor
+  nameWithType.vb: FilePathSettingDescriptor.New
+- uid: Zaya.Primitives.FilePathSettingDescriptor.DefaultValue
+  name: DefaultValue
+  href: api/Zaya.Primitives.FilePathSettingDescriptor.html#Zaya_Primitives_FilePathSettingDescriptor_DefaultValue
+  commentId: P:Zaya.Primitives.FilePathSettingDescriptor.DefaultValue
+  fullName: Zaya.Primitives.FilePathSettingDescriptor.DefaultValue
+  nameWithType: FilePathSettingDescriptor.DefaultValue
+- uid: Zaya.Primitives.FilePathSettingDescriptor.DefaultValue*
+  name: DefaultValue
+  href: api/Zaya.Primitives.FilePathSettingDescriptor.html#Zaya_Primitives_FilePathSettingDescriptor_DefaultValue_
+  commentId: Overload:Zaya.Primitives.FilePathSettingDescriptor.DefaultValue
+  isSpec: "True"
+  fullName: Zaya.Primitives.FilePathSettingDescriptor.DefaultValue
+  nameWithType: FilePathSettingDescriptor.DefaultValue
+- uid: Zaya.Primitives.FilePathSettingDescriptor.FileFilter
+  name: FileFilter
+  href: api/Zaya.Primitives.FilePathSettingDescriptor.html#Zaya_Primitives_FilePathSettingDescriptor_FileFilter
+  commentId: P:Zaya.Primitives.FilePathSettingDescriptor.FileFilter
+  fullName: Zaya.Primitives.FilePathSettingDescriptor.FileFilter
+  nameWithType: FilePathSettingDescriptor.FileFilter
+- uid: Zaya.Primitives.FilePathSettingDescriptor.FileFilter*
+  name: FileFilter
+  href: api/Zaya.Primitives.FilePathSettingDescriptor.html#Zaya_Primitives_FilePathSettingDescriptor_FileFilter_
+  commentId: Overload:Zaya.Primitives.FilePathSettingDescriptor.FileFilter
+  isSpec: "True"
+  fullName: Zaya.Primitives.FilePathSettingDescriptor.FileFilter
+  nameWithType: FilePathSettingDescriptor.FileFilter
+- uid: Zaya.Primitives.FilePathSettingDescriptor.FileMustExist
+  name: FileMustExist
+  href: api/Zaya.Primitives.FilePathSettingDescriptor.html#Zaya_Primitives_FilePathSettingDescriptor_FileMustExist
+  commentId: P:Zaya.Primitives.FilePathSettingDescriptor.FileMustExist
+  fullName: Zaya.Primitives.FilePathSettingDescriptor.FileMustExist
+  nameWithType: FilePathSettingDescriptor.FileMustExist
+- uid: Zaya.Primitives.FilePathSettingDescriptor.FileMustExist*
+  name: FileMustExist
+  href: api/Zaya.Primitives.FilePathSettingDescriptor.html#Zaya_Primitives_FilePathSettingDescriptor_FileMustExist_
+  commentId: Overload:Zaya.Primitives.FilePathSettingDescriptor.FileMustExist
+  isSpec: "True"
+  fullName: Zaya.Primitives.FilePathSettingDescriptor.FileMustExist
+  nameWithType: FilePathSettingDescriptor.FileMustExist
+- uid: Zaya.Primitives.IntegerSettingDescriptor
+  name: IntegerSettingDescriptor
+  href: api/Zaya.Primitives.IntegerSettingDescriptor.html
+  commentId: T:Zaya.Primitives.IntegerSettingDescriptor
+  fullName: Zaya.Primitives.IntegerSettingDescriptor
+  nameWithType: IntegerSettingDescriptor
+- uid: Zaya.Primitives.IntegerSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name: IntegerSettingDescriptor(string, LocalizedString)
+  href: api/Zaya.Primitives.IntegerSettingDescriptor.html#Zaya_Primitives_IntegerSettingDescriptor__ctor_System_String_Zaya_Primitives_LocalizedString_
+  commentId: M:Zaya.Primitives.IntegerSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name.vb: New(String, LocalizedString)
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.IntegerSettingDescriptor(string, Zaya.Primitives.LocalizedString)
+  fullName.vb: Zaya.Primitives.IntegerSettingDescriptor.New(String, Zaya.Primitives.LocalizedString)
+  nameWithType: IntegerSettingDescriptor.IntegerSettingDescriptor(string, LocalizedString)
+  nameWithType.vb: IntegerSettingDescriptor.New(String, LocalizedString)
+- uid: Zaya.Primitives.IntegerSettingDescriptor.#ctor*
+  name: IntegerSettingDescriptor
+  href: api/Zaya.Primitives.IntegerSettingDescriptor.html#Zaya_Primitives_IntegerSettingDescriptor__ctor_
+  commentId: Overload:Zaya.Primitives.IntegerSettingDescriptor.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.IntegerSettingDescriptor
+  fullName.vb: Zaya.Primitives.IntegerSettingDescriptor.New
+  nameWithType: IntegerSettingDescriptor.IntegerSettingDescriptor
+  nameWithType.vb: IntegerSettingDescriptor.New
+- uid: Zaya.Primitives.IntegerSettingDescriptor.DefaultValue
+  name: DefaultValue
+  href: api/Zaya.Primitives.IntegerSettingDescriptor.html#Zaya_Primitives_IntegerSettingDescriptor_DefaultValue
+  commentId: P:Zaya.Primitives.IntegerSettingDescriptor.DefaultValue
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.DefaultValue
+  nameWithType: IntegerSettingDescriptor.DefaultValue
+- uid: Zaya.Primitives.IntegerSettingDescriptor.DefaultValue*
+  name: DefaultValue
+  href: api/Zaya.Primitives.IntegerSettingDescriptor.html#Zaya_Primitives_IntegerSettingDescriptor_DefaultValue_
+  commentId: Overload:Zaya.Primitives.IntegerSettingDescriptor.DefaultValue
+  isSpec: "True"
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.DefaultValue
+  nameWithType: IntegerSettingDescriptor.DefaultValue
+- uid: Zaya.Primitives.IntegerSettingDescriptor.MaxValue
+  name: MaxValue
+  href: api/Zaya.Primitives.IntegerSettingDescriptor.html#Zaya_Primitives_IntegerSettingDescriptor_MaxValue
+  commentId: P:Zaya.Primitives.IntegerSettingDescriptor.MaxValue
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.MaxValue
+  nameWithType: IntegerSettingDescriptor.MaxValue
+- uid: Zaya.Primitives.IntegerSettingDescriptor.MaxValue*
+  name: MaxValue
+  href: api/Zaya.Primitives.IntegerSettingDescriptor.html#Zaya_Primitives_IntegerSettingDescriptor_MaxValue_
+  commentId: Overload:Zaya.Primitives.IntegerSettingDescriptor.MaxValue
+  isSpec: "True"
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.MaxValue
+  nameWithType: IntegerSettingDescriptor.MaxValue
+- uid: Zaya.Primitives.IntegerSettingDescriptor.MinValue
+  name: MinValue
+  href: api/Zaya.Primitives.IntegerSettingDescriptor.html#Zaya_Primitives_IntegerSettingDescriptor_MinValue
+  commentId: P:Zaya.Primitives.IntegerSettingDescriptor.MinValue
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.MinValue
+  nameWithType: IntegerSettingDescriptor.MinValue
+- uid: Zaya.Primitives.IntegerSettingDescriptor.MinValue*
+  name: MinValue
+  href: api/Zaya.Primitives.IntegerSettingDescriptor.html#Zaya_Primitives_IntegerSettingDescriptor_MinValue_
+  commentId: Overload:Zaya.Primitives.IntegerSettingDescriptor.MinValue
+  isSpec: "True"
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.MinValue
+  nameWithType: IntegerSettingDescriptor.MinValue
+- uid: Zaya.Primitives.LocalizedException
+  name: LocalizedException
+  href: api/Zaya.Primitives.LocalizedException.html
+  commentId: T:Zaya.Primitives.LocalizedException
+  fullName: Zaya.Primitives.LocalizedException
+  nameWithType: LocalizedException
+- uid: Zaya.Primitives.LocalizedException.#ctor(System.String)
+  name: LocalizedException(string)
+  href: api/Zaya.Primitives.LocalizedException.html#Zaya_Primitives_LocalizedException__ctor_System_String_
+  commentId: M:Zaya.Primitives.LocalizedException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Zaya.Primitives.LocalizedException.LocalizedException(string)
+  fullName.vb: Zaya.Primitives.LocalizedException.New(String)
+  nameWithType: LocalizedException.LocalizedException(string)
+  nameWithType.vb: LocalizedException.New(String)
+- uid: Zaya.Primitives.LocalizedException.#ctor*
+  name: LocalizedException
+  href: api/Zaya.Primitives.LocalizedException.html#Zaya_Primitives_LocalizedException__ctor_
+  commentId: Overload:Zaya.Primitives.LocalizedException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Zaya.Primitives.LocalizedException.LocalizedException
+  fullName.vb: Zaya.Primitives.LocalizedException.New
+  nameWithType: LocalizedException.LocalizedException
+  nameWithType.vb: LocalizedException.New
+- uid: Zaya.Primitives.LocalizedException.GetLocalizedMessage(System.Globalization.CultureInfo)
+  name: GetLocalizedMessage(CultureInfo)
+  href: api/Zaya.Primitives.LocalizedException.html#Zaya_Primitives_LocalizedException_GetLocalizedMessage_System_Globalization_CultureInfo_
+  commentId: M:Zaya.Primitives.LocalizedException.GetLocalizedMessage(System.Globalization.CultureInfo)
+  fullName: Zaya.Primitives.LocalizedException.GetLocalizedMessage(System.Globalization.CultureInfo)
+  nameWithType: LocalizedException.GetLocalizedMessage(CultureInfo)
+- uid: Zaya.Primitives.LocalizedException.GetLocalizedMessage*
+  name: GetLocalizedMessage
+  href: api/Zaya.Primitives.LocalizedException.html#Zaya_Primitives_LocalizedException_GetLocalizedMessage_
+  commentId: Overload:Zaya.Primitives.LocalizedException.GetLocalizedMessage
+  isSpec: "True"
+  fullName: Zaya.Primitives.LocalizedException.GetLocalizedMessage
+  nameWithType: LocalizedException.GetLocalizedMessage
+- uid: Zaya.Primitives.LocalizedString
+  name: LocalizedString
+  href: api/Zaya.Primitives.LocalizedString.html
+  commentId: T:Zaya.Primitives.LocalizedString
+  fullName: Zaya.Primitives.LocalizedString
+  nameWithType: LocalizedString
+- uid: Zaya.Primitives.LocalizedString.#ctor(System.String,System.Func{System.Globalization.CultureInfo,System.String})
+  name: LocalizedString(string, Func<CultureInfo, string>)
+  href: api/Zaya.Primitives.LocalizedString.html#Zaya_Primitives_LocalizedString__ctor_System_String_System_Func_System_Globalization_CultureInfo_System_String__
+  commentId: M:Zaya.Primitives.LocalizedString.#ctor(System.String,System.Func{System.Globalization.CultureInfo,System.String})
+  name.vb: New(String, Func(Of CultureInfo, String))
+  fullName: Zaya.Primitives.LocalizedString.LocalizedString(string, System.Func<System.Globalization.CultureInfo, string>)
+  fullName.vb: Zaya.Primitives.LocalizedString.New(String, System.Func(Of System.Globalization.CultureInfo, String))
+  nameWithType: LocalizedString.LocalizedString(string, Func<CultureInfo, string>)
+  nameWithType.vb: LocalizedString.New(String, Func(Of CultureInfo, String))
+- uid: Zaya.Primitives.LocalizedString.#ctor*
+  name: LocalizedString
+  href: api/Zaya.Primitives.LocalizedString.html#Zaya_Primitives_LocalizedString__ctor_
+  commentId: Overload:Zaya.Primitives.LocalizedString.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Zaya.Primitives.LocalizedString.LocalizedString
+  fullName.vb: Zaya.Primitives.LocalizedString.New
+  nameWithType: LocalizedString.LocalizedString
+  nameWithType.vb: LocalizedString.New
+- uid: Zaya.Primitives.LocalizedString.GetValue(System.Globalization.CultureInfo)
+  name: GetValue(CultureInfo)
+  href: api/Zaya.Primitives.LocalizedString.html#Zaya_Primitives_LocalizedString_GetValue_System_Globalization_CultureInfo_
+  commentId: M:Zaya.Primitives.LocalizedString.GetValue(System.Globalization.CultureInfo)
+  fullName: Zaya.Primitives.LocalizedString.GetValue(System.Globalization.CultureInfo)
+  nameWithType: LocalizedString.GetValue(CultureInfo)
+- uid: Zaya.Primitives.LocalizedString.GetValue*
+  name: GetValue
+  href: api/Zaya.Primitives.LocalizedString.html#Zaya_Primitives_LocalizedString_GetValue_
+  commentId: Overload:Zaya.Primitives.LocalizedString.GetValue
+  isSpec: "True"
+  fullName: Zaya.Primitives.LocalizedString.GetValue
+  nameWithType: LocalizedString.GetValue
+- uid: Zaya.Primitives.LocalizedString.Invariant(System.String)
+  name: Invariant(string)
+  href: api/Zaya.Primitives.LocalizedString.html#Zaya_Primitives_LocalizedString_Invariant_System_String_
+  commentId: M:Zaya.Primitives.LocalizedString.Invariant(System.String)
+  name.vb: Invariant(String)
+  fullName: Zaya.Primitives.LocalizedString.Invariant(string)
+  fullName.vb: Zaya.Primitives.LocalizedString.Invariant(String)
+  nameWithType: LocalizedString.Invariant(string)
+  nameWithType.vb: LocalizedString.Invariant(String)
+- uid: Zaya.Primitives.LocalizedString.Invariant*
+  name: Invariant
+  href: api/Zaya.Primitives.LocalizedString.html#Zaya_Primitives_LocalizedString_Invariant_
+  commentId: Overload:Zaya.Primitives.LocalizedString.Invariant
+  isSpec: "True"
+  fullName: Zaya.Primitives.LocalizedString.Invariant
+  nameWithType: LocalizedString.Invariant
+- uid: Zaya.Primitives.LocalizedString.Key
+  name: Key
+  href: api/Zaya.Primitives.LocalizedString.html#Zaya_Primitives_LocalizedString_Key
+  commentId: P:Zaya.Primitives.LocalizedString.Key
+  fullName: Zaya.Primitives.LocalizedString.Key
+  nameWithType: LocalizedString.Key
+- uid: Zaya.Primitives.LocalizedString.Key*
+  name: Key
+  href: api/Zaya.Primitives.LocalizedString.html#Zaya_Primitives_LocalizedString_Key_
+  commentId: Overload:Zaya.Primitives.LocalizedString.Key
+  isSpec: "True"
+  fullName: Zaya.Primitives.LocalizedString.Key
+  nameWithType: LocalizedString.Key
+- uid: Zaya.Primitives.PasswordSettingDescriptor
+  name: PasswordSettingDescriptor
+  href: api/Zaya.Primitives.PasswordSettingDescriptor.html
+  commentId: T:Zaya.Primitives.PasswordSettingDescriptor
+  fullName: Zaya.Primitives.PasswordSettingDescriptor
+  nameWithType: PasswordSettingDescriptor
+- uid: Zaya.Primitives.PasswordSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name: PasswordSettingDescriptor(string, LocalizedString)
+  href: api/Zaya.Primitives.PasswordSettingDescriptor.html#Zaya_Primitives_PasswordSettingDescriptor__ctor_System_String_Zaya_Primitives_LocalizedString_
+  commentId: M:Zaya.Primitives.PasswordSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name.vb: New(String, LocalizedString)
+  fullName: Zaya.Primitives.PasswordSettingDescriptor.PasswordSettingDescriptor(string, Zaya.Primitives.LocalizedString)
+  fullName.vb: Zaya.Primitives.PasswordSettingDescriptor.New(String, Zaya.Primitives.LocalizedString)
+  nameWithType: PasswordSettingDescriptor.PasswordSettingDescriptor(string, LocalizedString)
+  nameWithType.vb: PasswordSettingDescriptor.New(String, LocalizedString)
+- uid: Zaya.Primitives.PasswordSettingDescriptor.#ctor*
+  name: PasswordSettingDescriptor
+  href: api/Zaya.Primitives.PasswordSettingDescriptor.html#Zaya_Primitives_PasswordSettingDescriptor__ctor_
+  commentId: Overload:Zaya.Primitives.PasswordSettingDescriptor.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Zaya.Primitives.PasswordSettingDescriptor.PasswordSettingDescriptor
+  fullName.vb: Zaya.Primitives.PasswordSettingDescriptor.New
+  nameWithType: PasswordSettingDescriptor.PasswordSettingDescriptor
+  nameWithType.vb: PasswordSettingDescriptor.New
+- uid: Zaya.Primitives.PasswordSettingDescriptor.DefaultValue
+  name: DefaultValue
+  href: api/Zaya.Primitives.PasswordSettingDescriptor.html#Zaya_Primitives_PasswordSettingDescriptor_DefaultValue
+  commentId: P:Zaya.Primitives.PasswordSettingDescriptor.DefaultValue
+  fullName: Zaya.Primitives.PasswordSettingDescriptor.DefaultValue
+  nameWithType: PasswordSettingDescriptor.DefaultValue
+- uid: Zaya.Primitives.PasswordSettingDescriptor.DefaultValue*
+  name: DefaultValue
+  href: api/Zaya.Primitives.PasswordSettingDescriptor.html#Zaya_Primitives_PasswordSettingDescriptor_DefaultValue_
+  commentId: Overload:Zaya.Primitives.PasswordSettingDescriptor.DefaultValue
+  isSpec: "True"
+  fullName: Zaya.Primitives.PasswordSettingDescriptor.DefaultValue
+  nameWithType: PasswordSettingDescriptor.DefaultValue
 - uid: Zaya.Primitives.PixelFormat
   name: PixelFormat
   href: api/Zaya.Primitives.PixelFormat.html
@@ -130,3 +592,208 @@ references:
   fullName.vb: Zaya.Primitives.PixelFormat.<>
   nameWithType: PixelFormat.operator !=
   nameWithType.vb: PixelFormat.<>
+- uid: Zaya.Primitives.SettingDescriptor
+  name: SettingDescriptor
+  href: api/Zaya.Primitives.SettingDescriptor.html
+  commentId: T:Zaya.Primitives.SettingDescriptor
+  fullName: Zaya.Primitives.SettingDescriptor
+  nameWithType: SettingDescriptor
+- uid: Zaya.Primitives.SettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name: SettingDescriptor(string, LocalizedString)
+  href: api/Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor__ctor_System_String_Zaya_Primitives_LocalizedString_
+  commentId: M:Zaya.Primitives.SettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name.vb: New(String, LocalizedString)
+  fullName: Zaya.Primitives.SettingDescriptor.SettingDescriptor(string, Zaya.Primitives.LocalizedString)
+  fullName.vb: Zaya.Primitives.SettingDescriptor.New(String, Zaya.Primitives.LocalizedString)
+  nameWithType: SettingDescriptor.SettingDescriptor(string, LocalizedString)
+  nameWithType.vb: SettingDescriptor.New(String, LocalizedString)
+- uid: Zaya.Primitives.SettingDescriptor.#ctor*
+  name: SettingDescriptor
+  href: api/Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor__ctor_
+  commentId: Overload:Zaya.Primitives.SettingDescriptor.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Zaya.Primitives.SettingDescriptor.SettingDescriptor
+  fullName.vb: Zaya.Primitives.SettingDescriptor.New
+  nameWithType: SettingDescriptor.SettingDescriptor
+  nameWithType.vb: SettingDescriptor.New
+- uid: Zaya.Primitives.SettingDescriptor.Description
+  name: Description
+  href: api/Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_Description
+  commentId: P:Zaya.Primitives.SettingDescriptor.Description
+  fullName: Zaya.Primitives.SettingDescriptor.Description
+  nameWithType: SettingDescriptor.Description
+- uid: Zaya.Primitives.SettingDescriptor.Description*
+  name: Description
+  href: api/Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_Description_
+  commentId: Overload:Zaya.Primitives.SettingDescriptor.Description
+  isSpec: "True"
+  fullName: Zaya.Primitives.SettingDescriptor.Description
+  nameWithType: SettingDescriptor.Description
+- uid: Zaya.Primitives.SettingDescriptor.DisplayName
+  name: DisplayName
+  href: api/Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_DisplayName
+  commentId: P:Zaya.Primitives.SettingDescriptor.DisplayName
+  fullName: Zaya.Primitives.SettingDescriptor.DisplayName
+  nameWithType: SettingDescriptor.DisplayName
+- uid: Zaya.Primitives.SettingDescriptor.DisplayName*
+  name: DisplayName
+  href: api/Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_DisplayName_
+  commentId: Overload:Zaya.Primitives.SettingDescriptor.DisplayName
+  isSpec: "True"
+  fullName: Zaya.Primitives.SettingDescriptor.DisplayName
+  nameWithType: SettingDescriptor.DisplayName
+- uid: Zaya.Primitives.SettingDescriptor.IsRequired
+  name: IsRequired
+  href: api/Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_IsRequired
+  commentId: P:Zaya.Primitives.SettingDescriptor.IsRequired
+  fullName: Zaya.Primitives.SettingDescriptor.IsRequired
+  nameWithType: SettingDescriptor.IsRequired
+- uid: Zaya.Primitives.SettingDescriptor.IsRequired*
+  name: IsRequired
+  href: api/Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_IsRequired_
+  commentId: Overload:Zaya.Primitives.SettingDescriptor.IsRequired
+  isSpec: "True"
+  fullName: Zaya.Primitives.SettingDescriptor.IsRequired
+  nameWithType: SettingDescriptor.IsRequired
+- uid: Zaya.Primitives.SettingDescriptor.Key
+  name: Key
+  href: api/Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_Key
+  commentId: P:Zaya.Primitives.SettingDescriptor.Key
+  fullName: Zaya.Primitives.SettingDescriptor.Key
+  nameWithType: SettingDescriptor.Key
+- uid: Zaya.Primitives.SettingDescriptor.Key*
+  name: Key
+  href: api/Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_Key_
+  commentId: Overload:Zaya.Primitives.SettingDescriptor.Key
+  isSpec: "True"
+  fullName: Zaya.Primitives.SettingDescriptor.Key
+  nameWithType: SettingDescriptor.Key
+- uid: Zaya.Primitives.StringSettingDescriptor
+  name: StringSettingDescriptor
+  href: api/Zaya.Primitives.StringSettingDescriptor.html
+  commentId: T:Zaya.Primitives.StringSettingDescriptor
+  fullName: Zaya.Primitives.StringSettingDescriptor
+  nameWithType: StringSettingDescriptor
+- uid: Zaya.Primitives.StringSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name: StringSettingDescriptor(string, LocalizedString)
+  href: api/Zaya.Primitives.StringSettingDescriptor.html#Zaya_Primitives_StringSettingDescriptor__ctor_System_String_Zaya_Primitives_LocalizedString_
+  commentId: M:Zaya.Primitives.StringSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name.vb: New(String, LocalizedString)
+  fullName: Zaya.Primitives.StringSettingDescriptor.StringSettingDescriptor(string, Zaya.Primitives.LocalizedString)
+  fullName.vb: Zaya.Primitives.StringSettingDescriptor.New(String, Zaya.Primitives.LocalizedString)
+  nameWithType: StringSettingDescriptor.StringSettingDescriptor(string, LocalizedString)
+  nameWithType.vb: StringSettingDescriptor.New(String, LocalizedString)
+- uid: Zaya.Primitives.StringSettingDescriptor.#ctor*
+  name: StringSettingDescriptor
+  href: api/Zaya.Primitives.StringSettingDescriptor.html#Zaya_Primitives_StringSettingDescriptor__ctor_
+  commentId: Overload:Zaya.Primitives.StringSettingDescriptor.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Zaya.Primitives.StringSettingDescriptor.StringSettingDescriptor
+  fullName.vb: Zaya.Primitives.StringSettingDescriptor.New
+  nameWithType: StringSettingDescriptor.StringSettingDescriptor
+  nameWithType.vb: StringSettingDescriptor.New
+- uid: Zaya.Primitives.StringSettingDescriptor.DefaultValue
+  name: DefaultValue
+  href: api/Zaya.Primitives.StringSettingDescriptor.html#Zaya_Primitives_StringSettingDescriptor_DefaultValue
+  commentId: P:Zaya.Primitives.StringSettingDescriptor.DefaultValue
+  fullName: Zaya.Primitives.StringSettingDescriptor.DefaultValue
+  nameWithType: StringSettingDescriptor.DefaultValue
+- uid: Zaya.Primitives.StringSettingDescriptor.DefaultValue*
+  name: DefaultValue
+  href: api/Zaya.Primitives.StringSettingDescriptor.html#Zaya_Primitives_StringSettingDescriptor_DefaultValue_
+  commentId: Overload:Zaya.Primitives.StringSettingDescriptor.DefaultValue
+  isSpec: "True"
+  fullName: Zaya.Primitives.StringSettingDescriptor.DefaultValue
+  nameWithType: StringSettingDescriptor.DefaultValue
+- uid: Zaya.Primitives.StringSettingDescriptor.MaxLength
+  name: MaxLength
+  href: api/Zaya.Primitives.StringSettingDescriptor.html#Zaya_Primitives_StringSettingDescriptor_MaxLength
+  commentId: P:Zaya.Primitives.StringSettingDescriptor.MaxLength
+  fullName: Zaya.Primitives.StringSettingDescriptor.MaxLength
+  nameWithType: StringSettingDescriptor.MaxLength
+- uid: Zaya.Primitives.StringSettingDescriptor.MaxLength*
+  name: MaxLength
+  href: api/Zaya.Primitives.StringSettingDescriptor.html#Zaya_Primitives_StringSettingDescriptor_MaxLength_
+  commentId: Overload:Zaya.Primitives.StringSettingDescriptor.MaxLength
+  isSpec: "True"
+  fullName: Zaya.Primitives.StringSettingDescriptor.MaxLength
+  nameWithType: StringSettingDescriptor.MaxLength
+- uid: Zaya.Primitives.StringSettingDescriptor.MinLength
+  name: MinLength
+  href: api/Zaya.Primitives.StringSettingDescriptor.html#Zaya_Primitives_StringSettingDescriptor_MinLength
+  commentId: P:Zaya.Primitives.StringSettingDescriptor.MinLength
+  fullName: Zaya.Primitives.StringSettingDescriptor.MinLength
+  nameWithType: StringSettingDescriptor.MinLength
+- uid: Zaya.Primitives.StringSettingDescriptor.MinLength*
+  name: MinLength
+  href: api/Zaya.Primitives.StringSettingDescriptor.html#Zaya_Primitives_StringSettingDescriptor_MinLength_
+  commentId: Overload:Zaya.Primitives.StringSettingDescriptor.MinLength
+  isSpec: "True"
+  fullName: Zaya.Primitives.StringSettingDescriptor.MinLength
+  nameWithType: StringSettingDescriptor.MinLength
+- uid: Zaya.Primitives.StringSettingDescriptor.RegexPattern
+  name: RegexPattern
+  href: api/Zaya.Primitives.StringSettingDescriptor.html#Zaya_Primitives_StringSettingDescriptor_RegexPattern
+  commentId: P:Zaya.Primitives.StringSettingDescriptor.RegexPattern
+  fullName: Zaya.Primitives.StringSettingDescriptor.RegexPattern
+  nameWithType: StringSettingDescriptor.RegexPattern
+- uid: Zaya.Primitives.StringSettingDescriptor.RegexPattern*
+  name: RegexPattern
+  href: api/Zaya.Primitives.StringSettingDescriptor.html#Zaya_Primitives_StringSettingDescriptor_RegexPattern_
+  commentId: Overload:Zaya.Primitives.StringSettingDescriptor.RegexPattern
+  isSpec: "True"
+  fullName: Zaya.Primitives.StringSettingDescriptor.RegexPattern
+  nameWithType: StringSettingDescriptor.RegexPattern
+- uid: Zaya.Primitives.UrlSettingDescriptor
+  name: UrlSettingDescriptor
+  href: api/Zaya.Primitives.UrlSettingDescriptor.html
+  commentId: T:Zaya.Primitives.UrlSettingDescriptor
+  fullName: Zaya.Primitives.UrlSettingDescriptor
+  nameWithType: UrlSettingDescriptor
+- uid: Zaya.Primitives.UrlSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name: UrlSettingDescriptor(string, LocalizedString)
+  href: api/Zaya.Primitives.UrlSettingDescriptor.html#Zaya_Primitives_UrlSettingDescriptor__ctor_System_String_Zaya_Primitives_LocalizedString_
+  commentId: M:Zaya.Primitives.UrlSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  name.vb: New(String, LocalizedString)
+  fullName: Zaya.Primitives.UrlSettingDescriptor.UrlSettingDescriptor(string, Zaya.Primitives.LocalizedString)
+  fullName.vb: Zaya.Primitives.UrlSettingDescriptor.New(String, Zaya.Primitives.LocalizedString)
+  nameWithType: UrlSettingDescriptor.UrlSettingDescriptor(string, LocalizedString)
+  nameWithType.vb: UrlSettingDescriptor.New(String, LocalizedString)
+- uid: Zaya.Primitives.UrlSettingDescriptor.#ctor*
+  name: UrlSettingDescriptor
+  href: api/Zaya.Primitives.UrlSettingDescriptor.html#Zaya_Primitives_UrlSettingDescriptor__ctor_
+  commentId: Overload:Zaya.Primitives.UrlSettingDescriptor.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Zaya.Primitives.UrlSettingDescriptor.UrlSettingDescriptor
+  fullName.vb: Zaya.Primitives.UrlSettingDescriptor.New
+  nameWithType: UrlSettingDescriptor.UrlSettingDescriptor
+  nameWithType.vb: UrlSettingDescriptor.New
+- uid: Zaya.Primitives.UrlSettingDescriptor.DefaultValue
+  name: DefaultValue
+  href: api/Zaya.Primitives.UrlSettingDescriptor.html#Zaya_Primitives_UrlSettingDescriptor_DefaultValue
+  commentId: P:Zaya.Primitives.UrlSettingDescriptor.DefaultValue
+  fullName: Zaya.Primitives.UrlSettingDescriptor.DefaultValue
+  nameWithType: UrlSettingDescriptor.DefaultValue
+- uid: Zaya.Primitives.UrlSettingDescriptor.DefaultValue*
+  name: DefaultValue
+  href: api/Zaya.Primitives.UrlSettingDescriptor.html#Zaya_Primitives_UrlSettingDescriptor_DefaultValue_
+  commentId: Overload:Zaya.Primitives.UrlSettingDescriptor.DefaultValue
+  isSpec: "True"
+  fullName: Zaya.Primitives.UrlSettingDescriptor.DefaultValue
+  nameWithType: UrlSettingDescriptor.DefaultValue
+- uid: Zaya.Primitives.UrlSettingDescriptor.RegexPattern
+  name: RegexPattern
+  href: api/Zaya.Primitives.UrlSettingDescriptor.html#Zaya_Primitives_UrlSettingDescriptor_RegexPattern
+  commentId: P:Zaya.Primitives.UrlSettingDescriptor.RegexPattern
+  fullName: Zaya.Primitives.UrlSettingDescriptor.RegexPattern
+  nameWithType: UrlSettingDescriptor.RegexPattern
+- uid: Zaya.Primitives.UrlSettingDescriptor.RegexPattern*
+  name: RegexPattern
+  href: api/Zaya.Primitives.UrlSettingDescriptor.html#Zaya_Primitives_UrlSettingDescriptor_RegexPattern_
+  commentId: Overload:Zaya.Primitives.UrlSettingDescriptor.RegexPattern
+  isSpec: "True"
+  fullName: Zaya.Primitives.UrlSettingDescriptor.RegexPattern
+  nameWithType: UrlSettingDescriptor.RegexPattern

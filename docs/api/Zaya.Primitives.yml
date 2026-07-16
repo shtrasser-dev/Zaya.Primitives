@@ -4,7 +4,19 @@ items:
   commentId: N:Zaya.Primitives
   id: Zaya.Primitives
   children:
+  - Zaya.Primitives.BooleanSettingDescriptor
+  - Zaya.Primitives.DirectoryPathSettingDescriptor
+  - Zaya.Primitives.EnumOption
+  - Zaya.Primitives.EnumSettingDescriptor
+  - Zaya.Primitives.FilePathSettingDescriptor
+  - Zaya.Primitives.IntegerSettingDescriptor
+  - Zaya.Primitives.LocalizedException
+  - Zaya.Primitives.LocalizedString
+  - Zaya.Primitives.PasswordSettingDescriptor
   - Zaya.Primitives.PixelFormat
+  - Zaya.Primitives.SettingDescriptor
+  - Zaya.Primitives.StringSettingDescriptor
+  - Zaya.Primitives.UrlSettingDescriptor
   langs:
   - csharp
   - vb
@@ -15,6 +27,25 @@ items:
   assemblies:
   - Zaya.Primitives
 references:
+- uid: Zaya.Primitives.EnumOption
+  commentId: T:Zaya.Primitives.EnumOption
+  href: Zaya.Primitives.EnumOption.html
+  name: EnumOption
+  nameWithType: EnumOption
+  fullName: Zaya.Primitives.EnumOption
+- uid: Zaya.Primitives.LocalizedException
+  commentId: T:Zaya.Primitives.LocalizedException
+  href: Zaya.Primitives.LocalizedException.html
+  name: LocalizedException
+  nameWithType: LocalizedException
+  fullName: Zaya.Primitives.LocalizedException
+- uid: Zaya.Primitives.LocalizedString
+  commentId: T:Zaya.Primitives.LocalizedString
+  parent: Zaya.Primitives
+  href: Zaya.Primitives.LocalizedString.html
+  name: LocalizedString
+  nameWithType: LocalizedString
+  fullName: Zaya.Primitives.LocalizedString
 - uid: Zaya.Primitives.PixelFormat
   commentId: T:Zaya.Primitives.PixelFormat
   parent: Zaya.Primitives
@@ -22,6 +53,61 @@ references:
   name: PixelFormat
   nameWithType: PixelFormat
   fullName: Zaya.Primitives.PixelFormat
+- uid: Zaya.Primitives.SettingDescriptor
+  commentId: T:Zaya.Primitives.SettingDescriptor
+  parent: Zaya.Primitives
+  href: Zaya.Primitives.SettingDescriptor.html
+  name: SettingDescriptor
+  nameWithType: SettingDescriptor
+  fullName: Zaya.Primitives.SettingDescriptor
+- uid: Zaya.Primitives.StringSettingDescriptor
+  commentId: T:Zaya.Primitives.StringSettingDescriptor
+  href: Zaya.Primitives.StringSettingDescriptor.html
+  name: StringSettingDescriptor
+  nameWithType: StringSettingDescriptor
+  fullName: Zaya.Primitives.StringSettingDescriptor
+- uid: Zaya.Primitives.IntegerSettingDescriptor
+  commentId: T:Zaya.Primitives.IntegerSettingDescriptor
+  href: Zaya.Primitives.IntegerSettingDescriptor.html
+  name: IntegerSettingDescriptor
+  nameWithType: IntegerSettingDescriptor
+  fullName: Zaya.Primitives.IntegerSettingDescriptor
+- uid: Zaya.Primitives.BooleanSettingDescriptor
+  commentId: T:Zaya.Primitives.BooleanSettingDescriptor
+  href: Zaya.Primitives.BooleanSettingDescriptor.html
+  name: BooleanSettingDescriptor
+  nameWithType: BooleanSettingDescriptor
+  fullName: Zaya.Primitives.BooleanSettingDescriptor
+- uid: Zaya.Primitives.EnumSettingDescriptor
+  commentId: T:Zaya.Primitives.EnumSettingDescriptor
+  href: Zaya.Primitives.EnumSettingDescriptor.html
+  name: EnumSettingDescriptor
+  nameWithType: EnumSettingDescriptor
+  fullName: Zaya.Primitives.EnumSettingDescriptor
+- uid: Zaya.Primitives.FilePathSettingDescriptor
+  commentId: T:Zaya.Primitives.FilePathSettingDescriptor
+  href: Zaya.Primitives.FilePathSettingDescriptor.html
+  name: FilePathSettingDescriptor
+  nameWithType: FilePathSettingDescriptor
+  fullName: Zaya.Primitives.FilePathSettingDescriptor
+- uid: Zaya.Primitives.DirectoryPathSettingDescriptor
+  commentId: T:Zaya.Primitives.DirectoryPathSettingDescriptor
+  href: Zaya.Primitives.DirectoryPathSettingDescriptor.html
+  name: DirectoryPathSettingDescriptor
+  nameWithType: DirectoryPathSettingDescriptor
+  fullName: Zaya.Primitives.DirectoryPathSettingDescriptor
+- uid: Zaya.Primitives.UrlSettingDescriptor
+  commentId: T:Zaya.Primitives.UrlSettingDescriptor
+  href: Zaya.Primitives.UrlSettingDescriptor.html
+  name: UrlSettingDescriptor
+  nameWithType: UrlSettingDescriptor
+  fullName: Zaya.Primitives.UrlSettingDescriptor
+- uid: Zaya.Primitives.PasswordSettingDescriptor
+  commentId: T:Zaya.Primitives.PasswordSettingDescriptor
+  href: Zaya.Primitives.PasswordSettingDescriptor.html
+  name: PasswordSettingDescriptor
+  nameWithType: PasswordSettingDescriptor
+  fullName: Zaya.Primitives.PasswordSettingDescriptor
 - uid: Zaya.Primitives
   commentId: N:Zaya.Primitives
   href: Zaya.html

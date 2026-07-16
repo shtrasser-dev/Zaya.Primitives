@@ -72,6 +72,53 @@
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="markdown level0 remarks"></div>
+    <h3 id="classes">
+Classes
+</h3>
+      <h4><a class="xref" href="Zaya.Primitives.BooleanSettingDescriptor.html">BooleanSettingDescriptor</a></h4>
+      <section><p>Descriptor for a boolean toggle setting. Rendered as a checkbox.</p>
+</section>
+      <h4><a class="xref" href="Zaya.Primitives.DirectoryPathSettingDescriptor.html">DirectoryPathSettingDescriptor</a></h4>
+      <section><p>Descriptor for a directory path setting. Rendered as a text box with a &quot;Browse...&quot; button.</p>
+</section>
+      <h4><a class="xref" href="Zaya.Primitives.EnumOption.html">EnumOption</a></h4>
+      <section><p>Represents a single option in an enum-style setting, pairing a machine-readable value
+with a localizable display name and optional description.</p>
+</section>
+      <h4><a class="xref" href="Zaya.Primitives.EnumSettingDescriptor.html">EnumSettingDescriptor</a></h4>
+      <section><p>Descriptor for a dropdown / combo-box setting. The <a class="xref" href="Zaya.Primitives.EnumSettingDescriptor.html#Zaya_Primitives_EnumSettingDescriptor_Options">Options</a> list defines the available choices.</p>
+</section>
+      <h4><a class="xref" href="Zaya.Primitives.FilePathSettingDescriptor.html">FilePathSettingDescriptor</a></h4>
+      <section><p>Descriptor for a file path setting. Rendered as a text box with a &quot;Browse...&quot; button.</p>
+</section>
+      <h4><a class="xref" href="Zaya.Primitives.IntegerSettingDescriptor.html">IntegerSettingDescriptor</a></h4>
+      <section><p>Descriptor for an integer numeric setting. Supports min/max range clamping.</p>
+</section>
+      <h4><a class="xref" href="Zaya.Primitives.LocalizedException.html">LocalizedException</a></h4>
+      <section><p>Base class for exceptions that carry a localizable user-facing message.
+Subclasses override <a class="xref" href="Zaya.Primitives.LocalizedException.html#Zaya_Primitives_LocalizedException_GetLocalizedMessage_System_Globalization_CultureInfo_">GetLocalizedMessage(CultureInfo)</a> to resolve translations.
+The constructor receives only a localization key; the default culture resource file is the source of strings.</p>
+</section>
+      <h4><a class="xref" href="Zaya.Primitives.LocalizedString.html">LocalizedString</a></h4>
+      <section><p>Represents a string that can be localized. Supports two modes:</p>
+<ul><li>Localized via a resolver function (typically a .resx <code>ResourceManager</code>).</li><li>Invariant — created via <a class="xref" href="Zaya.Primitives.LocalizedString.html#Zaya_Primitives_LocalizedString_Invariant_System_String_">Invariant(string)</a> and never translated.</li></ul>
+<p>All source strings live in resource files; no English defaults are embedded in code.</p>
+</section>
+      <h4><a class="xref" href="Zaya.Primitives.PasswordSettingDescriptor.html">PasswordSettingDescriptor</a></h4>
+      <section><p>Descriptor for a password setting. Rendered as a masked text box.</p>
+</section>
+      <h4><a class="xref" href="Zaya.Primitives.SettingDescriptor.html">SettingDescriptor</a></h4>
+      <section><p>Abstract base class for describing a configurable engine setting.
+Subclasses carry type-specific properties (e.g. <a class="xref" href="Zaya.Primitives.StringSettingDescriptor.html#Zaya_Primitives_StringSettingDescriptor_MinLength">MinLength</a>,
+<a class="xref" href="Zaya.Primitives.IntegerSettingDescriptor.html#Zaya_Primitives_IntegerSettingDescriptor_MinValue">MinValue</a>, <a class="xref" href="Zaya.Primitives.EnumSettingDescriptor.html#Zaya_Primitives_EnumSettingDescriptor_Options">Options</a>).
+Hosts use pattern matching on the concrete type to render the appropriate UI control.</p>
+</section>
+      <h4><a class="xref" href="Zaya.Primitives.StringSettingDescriptor.html">StringSettingDescriptor</a></h4>
+      <section><p>Descriptor for a free-text string setting. Supports min/max length and optional regex validation.</p>
+</section>
+      <h4><a class="xref" href="Zaya.Primitives.UrlSettingDescriptor.html">UrlSettingDescriptor</a></h4>
+      <section><p>Descriptor for a URL setting. Rendered as a text box; the host may validate via <a class="xref" href="Zaya.Primitives.UrlSettingDescriptor.html#Zaya_Primitives_UrlSettingDescriptor_RegexPattern">RegexPattern</a>.</p>
+</section>
     <h3 id="structs">
 Structs
 </h3>

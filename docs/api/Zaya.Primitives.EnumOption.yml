@@ -1,0 +1,492 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zaya.Primitives.EnumOption
+  commentId: T:Zaya.Primitives.EnumOption
+  id: EnumOption
+  parent: Zaya.Primitives
+  children:
+  - Zaya.Primitives.EnumOption.#ctor(System.String,Zaya.Primitives.LocalizedString,Zaya.Primitives.LocalizedString)
+  - Zaya.Primitives.EnumOption.Description
+  - Zaya.Primitives.EnumOption.DisplayName
+  - Zaya.Primitives.EnumOption.Value
+  langs:
+  - csharp
+  - vb
+  name: EnumOption
+  nameWithType: EnumOption
+  fullName: Zaya.Primitives.EnumOption
+  type: Class
+  source:
+    remote:
+      path: src/Zaya.Primitives/EnumOption.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: EnumOption
+    path: src/Zaya.Primitives/EnumOption.cs
+    startLine: 6
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: >-
+    Represents a single option in an enum-style setting, pairing a machine-readable value
+
+    with a localizable display name and optional description.
+  example: []
+  syntax:
+    content: public class EnumOption
+    content.vb: Public Class EnumOption
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Zaya.Primitives.EnumOption.Value
+  commentId: P:Zaya.Primitives.EnumOption.Value
+  id: Value
+  parent: Zaya.Primitives.EnumOption
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: EnumOption.Value
+  fullName: Zaya.Primitives.EnumOption.Value
+  type: Property
+  source:
+    remote:
+      path: src/Zaya.Primitives/EnumOption.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: Value
+    path: src/Zaya.Primitives/EnumOption.cs
+    startLine: 11
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: Gets the machine-readable value (e.g. "snippingtool", "directory").
+  example: []
+  syntax:
+    content: public string Value { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Value As String
+  overload: Zaya.Primitives.EnumOption.Value*
+- uid: Zaya.Primitives.EnumOption.DisplayName
+  commentId: P:Zaya.Primitives.EnumOption.DisplayName
+  id: DisplayName
+  parent: Zaya.Primitives.EnumOption
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: EnumOption.DisplayName
+  fullName: Zaya.Primitives.EnumOption.DisplayName
+  type: Property
+  source:
+    remote:
+      path: src/Zaya.Primitives/EnumOption.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: DisplayName
+    path: src/Zaya.Primitives/EnumOption.cs
+    startLine: 16
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: Gets the localizable display name shown in the UI.
+  example: []
+  syntax:
+    content: public LocalizedString DisplayName { get; }
+    parameters: []
+    return:
+      type: Zaya.Primitives.LocalizedString
+    content.vb: Public ReadOnly Property DisplayName As LocalizedString
+  overload: Zaya.Primitives.EnumOption.DisplayName*
+- uid: Zaya.Primitives.EnumOption.Description
+  commentId: P:Zaya.Primitives.EnumOption.Description
+  id: Description
+  parent: Zaya.Primitives.EnumOption
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: EnumOption.Description
+  fullName: Zaya.Primitives.EnumOption.Description
+  type: Property
+  source:
+    remote:
+      path: src/Zaya.Primitives/EnumOption.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: Description
+    path: src/Zaya.Primitives/EnumOption.cs
+    startLine: 21
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: Gets the optional localizable description (tooltip / help text).
+  example: []
+  syntax:
+    content: public LocalizedString? Description { get; }
+    parameters: []
+    return:
+      type: Zaya.Primitives.LocalizedString
+    content.vb: Public ReadOnly Property Description As LocalizedString
+  overload: Zaya.Primitives.EnumOption.Description*
+- uid: Zaya.Primitives.EnumOption.#ctor(System.String,Zaya.Primitives.LocalizedString,Zaya.Primitives.LocalizedString)
+  commentId: M:Zaya.Primitives.EnumOption.#ctor(System.String,Zaya.Primitives.LocalizedString,Zaya.Primitives.LocalizedString)
+  id: '#ctor(System.String,Zaya.Primitives.LocalizedString,Zaya.Primitives.LocalizedString)'
+  parent: Zaya.Primitives.EnumOption
+  langs:
+  - csharp
+  - vb
+  name: EnumOption(string, LocalizedString, LocalizedString?)
+  nameWithType: EnumOption.EnumOption(string, LocalizedString, LocalizedString?)
+  fullName: Zaya.Primitives.EnumOption.EnumOption(string, Zaya.Primitives.LocalizedString, Zaya.Primitives.LocalizedString?)
+  type: Constructor
+  source:
+    remote:
+      path: src/Zaya.Primitives/EnumOption.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: .ctor
+    path: src/Zaya.Primitives/EnumOption.cs
+    startLine: 29
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: Initializes a new instance of the <xref href="Zaya.Primitives.EnumOption" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public EnumOption(string value, LocalizedString displayName, LocalizedString? description = null)
+    parameters:
+    - id: value
+      type: System.String
+      description: Machine-readable option value.
+    - id: displayName
+      type: Zaya.Primitives.LocalizedString
+      description: UI display name.
+    - id: description
+      type: Zaya.Primitives.LocalizedString
+      description: Optional description (tooltip).
+    content.vb: Public Sub New(value As String, displayName As LocalizedString, description As LocalizedString = Nothing)
+  overload: Zaya.Primitives.EnumOption.#ctor*
+  nameWithType.vb: EnumOption.New(String, LocalizedString, LocalizedString)
+  fullName.vb: Zaya.Primitives.EnumOption.New(String, Zaya.Primitives.LocalizedString, Zaya.Primitives.LocalizedString)
+  name.vb: New(String, LocalizedString, LocalizedString)
+references:
+- uid: Zaya.Primitives
+  commentId: N:Zaya.Primitives
+  href: Zaya.html
+  name: Zaya.Primitives
+  nameWithType: Zaya.Primitives
+  fullName: Zaya.Primitives
+  spec.csharp:
+  - uid: Zaya
+    name: Zaya
+    href: Zaya.html
+  - name: .
+  - uid: Zaya.Primitives
+    name: Primitives
+    href: Zaya.Primitives.html
+  spec.vb:
+  - uid: Zaya
+    name: Zaya
+    href: Zaya.html
+  - name: .
+  - uid: Zaya.Primitives
+    name: Primitives
+    href: Zaya.Primitives.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zaya.Primitives.EnumOption.Value*
+  commentId: Overload:Zaya.Primitives.EnumOption.Value
+  href: Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption_Value
+  name: Value
+  nameWithType: EnumOption.Value
+  fullName: Zaya.Primitives.EnumOption.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Zaya.Primitives.EnumOption.DisplayName*
+  commentId: Overload:Zaya.Primitives.EnumOption.DisplayName
+  href: Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption_DisplayName
+  name: DisplayName
+  nameWithType: EnumOption.DisplayName
+  fullName: Zaya.Primitives.EnumOption.DisplayName
+- uid: Zaya.Primitives.LocalizedString
+  commentId: T:Zaya.Primitives.LocalizedString
+  parent: Zaya.Primitives
+  href: Zaya.Primitives.LocalizedString.html
+  name: LocalizedString
+  nameWithType: LocalizedString
+  fullName: Zaya.Primitives.LocalizedString
+- uid: Zaya.Primitives.EnumOption.Description*
+  commentId: Overload:Zaya.Primitives.EnumOption.Description
+  href: Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption_Description
+  name: Description
+  nameWithType: EnumOption.Description
+  fullName: Zaya.Primitives.EnumOption.Description
+- uid: Zaya.Primitives.EnumOption
+  commentId: T:Zaya.Primitives.EnumOption
+  href: Zaya.Primitives.EnumOption.html
+  name: EnumOption
+  nameWithType: EnumOption
+  fullName: Zaya.Primitives.EnumOption
+- uid: Zaya.Primitives.EnumOption.#ctor*
+  commentId: Overload:Zaya.Primitives.EnumOption.#ctor
+  href: Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption__ctor_System_String_Zaya_Primitives_LocalizedString_Zaya_Primitives_LocalizedString_
+  name: EnumOption
+  nameWithType: EnumOption.EnumOption
+  fullName: Zaya.Primitives.EnumOption.EnumOption
+  nameWithType.vb: EnumOption.New
+  fullName.vb: Zaya.Primitives.EnumOption.New
+  name.vb: New

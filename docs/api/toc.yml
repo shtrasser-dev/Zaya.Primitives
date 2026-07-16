@@ -4,7 +4,43 @@ items:
   name: Zaya.Primitives
   type: Namespace
   items:
+  - uid: Zaya.Primitives.BooleanSettingDescriptor
+    name: BooleanSettingDescriptor
+    type: Class
+  - uid: Zaya.Primitives.DirectoryPathSettingDescriptor
+    name: DirectoryPathSettingDescriptor
+    type: Class
+  - uid: Zaya.Primitives.EnumOption
+    name: EnumOption
+    type: Class
+  - uid: Zaya.Primitives.EnumSettingDescriptor
+    name: EnumSettingDescriptor
+    type: Class
+  - uid: Zaya.Primitives.FilePathSettingDescriptor
+    name: FilePathSettingDescriptor
+    type: Class
+  - uid: Zaya.Primitives.IntegerSettingDescriptor
+    name: IntegerSettingDescriptor
+    type: Class
+  - uid: Zaya.Primitives.LocalizedException
+    name: LocalizedException
+    type: Class
+  - uid: Zaya.Primitives.LocalizedString
+    name: LocalizedString
+    type: Class
+  - uid: Zaya.Primitives.PasswordSettingDescriptor
+    name: PasswordSettingDescriptor
+    type: Class
   - uid: Zaya.Primitives.PixelFormat
     name: PixelFormat
     type: Struct
+  - uid: Zaya.Primitives.SettingDescriptor
+    name: SettingDescriptor
+    type: Class
+  - uid: Zaya.Primitives.StringSettingDescriptor
+    name: StringSettingDescriptor
+    type: Class
+  - uid: Zaya.Primitives.UrlSettingDescriptor
+    name: UrlSettingDescriptor
+    type: Class
 memberLayout: SamePage

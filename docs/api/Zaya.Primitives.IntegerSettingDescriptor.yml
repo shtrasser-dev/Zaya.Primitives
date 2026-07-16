@@ -1,0 +1,552 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zaya.Primitives.IntegerSettingDescriptor
+  commentId: T:Zaya.Primitives.IntegerSettingDescriptor
+  id: IntegerSettingDescriptor
+  parent: Zaya.Primitives
+  children:
+  - Zaya.Primitives.IntegerSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  - Zaya.Primitives.IntegerSettingDescriptor.DefaultValue
+  - Zaya.Primitives.IntegerSettingDescriptor.MaxValue
+  - Zaya.Primitives.IntegerSettingDescriptor.MinValue
+  langs:
+  - csharp
+  - vb
+  name: IntegerSettingDescriptor
+  nameWithType: IntegerSettingDescriptor
+  fullName: Zaya.Primitives.IntegerSettingDescriptor
+  type: Class
+  source:
+    remote:
+      path: src/Zaya.Primitives/SettingDescriptor.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: IntegerSettingDescriptor
+    path: src/Zaya.Primitives/SettingDescriptor.cs
+    startLine: 78
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: Descriptor for an integer numeric setting. Supports min/max range clamping.
+  example: []
+  syntax:
+    content: 'public sealed class IntegerSettingDescriptor : SettingDescriptor'
+    content.vb: Public NotInheritable Class IntegerSettingDescriptor Inherits SettingDescriptor
+  inheritance:
+  - System.Object
+  - Zaya.Primitives.SettingDescriptor
+  inheritedMembers:
+  - Zaya.Primitives.SettingDescriptor.Key
+  - Zaya.Primitives.SettingDescriptor.DisplayName
+  - Zaya.Primitives.SettingDescriptor.Description
+  - Zaya.Primitives.SettingDescriptor.IsRequired
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Zaya.Primitives.IntegerSettingDescriptor.DefaultValue
+  commentId: P:Zaya.Primitives.IntegerSettingDescriptor.DefaultValue
+  id: DefaultValue
+  parent: Zaya.Primitives.IntegerSettingDescriptor
+  langs:
+  - csharp
+  - vb
+  name: DefaultValue
+  nameWithType: IntegerSettingDescriptor.DefaultValue
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.DefaultValue
+  type: Property
+  source:
+    remote:
+      path: src/Zaya.Primitives/SettingDescriptor.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: DefaultValue
+    path: src/Zaya.Primitives/SettingDescriptor.cs
+    startLine: 83
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: Gets or sets the default integer value.
+  example: []
+  syntax:
+    content: public int? DefaultValue { get; init; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property DefaultValue As Integer?
+  overload: Zaya.Primitives.IntegerSettingDescriptor.DefaultValue*
+- uid: Zaya.Primitives.IntegerSettingDescriptor.MinValue
+  commentId: P:Zaya.Primitives.IntegerSettingDescriptor.MinValue
+  id: MinValue
+  parent: Zaya.Primitives.IntegerSettingDescriptor
+  langs:
+  - csharp
+  - vb
+  name: MinValue
+  nameWithType: IntegerSettingDescriptor.MinValue
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.MinValue
+  type: Property
+  source:
+    remote:
+      path: src/Zaya.Primitives/SettingDescriptor.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: MinValue
+    path: src/Zaya.Primitives/SettingDescriptor.cs
+    startLine: 88
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: Gets or sets the minimum allowed value (inclusive).
+  example: []
+  syntax:
+    content: public int? MinValue { get; init; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property MinValue As Integer?
+  overload: Zaya.Primitives.IntegerSettingDescriptor.MinValue*
+- uid: Zaya.Primitives.IntegerSettingDescriptor.MaxValue
+  commentId: P:Zaya.Primitives.IntegerSettingDescriptor.MaxValue
+  id: MaxValue
+  parent: Zaya.Primitives.IntegerSettingDescriptor
+  langs:
+  - csharp
+  - vb
+  name: MaxValue
+  nameWithType: IntegerSettingDescriptor.MaxValue
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.MaxValue
+  type: Property
+  source:
+    remote:
+      path: src/Zaya.Primitives/SettingDescriptor.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: MaxValue
+    path: src/Zaya.Primitives/SettingDescriptor.cs
+    startLine: 93
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: Gets or sets the maximum allowed value (inclusive).
+  example: []
+  syntax:
+    content: public int? MaxValue { get; init; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property MaxValue As Integer?
+  overload: Zaya.Primitives.IntegerSettingDescriptor.MaxValue*
+- uid: Zaya.Primitives.IntegerSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  commentId: M:Zaya.Primitives.IntegerSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)
+  id: '#ctor(System.String,Zaya.Primitives.LocalizedString)'
+  parent: Zaya.Primitives.IntegerSettingDescriptor
+  langs:
+  - csharp
+  - vb
+  name: IntegerSettingDescriptor(string, LocalizedString)
+  nameWithType: IntegerSettingDescriptor.IntegerSettingDescriptor(string, LocalizedString)
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.IntegerSettingDescriptor(string, Zaya.Primitives.LocalizedString)
+  type: Constructor
+  source:
+    remote:
+      path: src/Zaya.Primitives/SettingDescriptor.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: .ctor
+    path: src/Zaya.Primitives/SettingDescriptor.cs
+    startLine: 100
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: Initializes a new instance of the <xref href="Zaya.Primitives.IntegerSettingDescriptor" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public IntegerSettingDescriptor(string key, LocalizedString displayName)
+    parameters:
+    - id: key
+      type: System.String
+      description: Machine-readable key for this setting.
+    - id: displayName
+      type: Zaya.Primitives.LocalizedString
+      description: Localizable UI label.
+    content.vb: Public Sub New(key As String, displayName As LocalizedString)
+  overload: Zaya.Primitives.IntegerSettingDescriptor.#ctor*
+  nameWithType.vb: IntegerSettingDescriptor.New(String, LocalizedString)
+  fullName.vb: Zaya.Primitives.IntegerSettingDescriptor.New(String, Zaya.Primitives.LocalizedString)
+  name.vb: New(String, LocalizedString)
+references:
+- uid: Zaya.Primitives
+  commentId: N:Zaya.Primitives
+  href: Zaya.html
+  name: Zaya.Primitives
+  nameWithType: Zaya.Primitives
+  fullName: Zaya.Primitives
+  spec.csharp:
+  - uid: Zaya
+    name: Zaya
+    href: Zaya.html
+  - name: .
+  - uid: Zaya.Primitives
+    name: Primitives
+    href: Zaya.Primitives.html
+  spec.vb:
+  - uid: Zaya
+    name: Zaya
+    href: Zaya.html
+  - name: .
+  - uid: Zaya.Primitives
+    name: Primitives
+    href: Zaya.Primitives.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Zaya.Primitives.SettingDescriptor
+  commentId: T:Zaya.Primitives.SettingDescriptor
+  parent: Zaya.Primitives
+  href: Zaya.Primitives.SettingDescriptor.html
+  name: SettingDescriptor
+  nameWithType: SettingDescriptor
+  fullName: Zaya.Primitives.SettingDescriptor
+- uid: Zaya.Primitives.SettingDescriptor.Key
+  commentId: P:Zaya.Primitives.SettingDescriptor.Key
+  parent: Zaya.Primitives.SettingDescriptor
+  href: Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_Key
+  name: Key
+  nameWithType: SettingDescriptor.Key
+  fullName: Zaya.Primitives.SettingDescriptor.Key
+- uid: Zaya.Primitives.SettingDescriptor.DisplayName
+  commentId: P:Zaya.Primitives.SettingDescriptor.DisplayName
+  parent: Zaya.Primitives.SettingDescriptor
+  href: Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_DisplayName
+  name: DisplayName
+  nameWithType: SettingDescriptor.DisplayName
+  fullName: Zaya.Primitives.SettingDescriptor.DisplayName
+- uid: Zaya.Primitives.SettingDescriptor.Description
+  commentId: P:Zaya.Primitives.SettingDescriptor.Description
+  parent: Zaya.Primitives.SettingDescriptor
+  href: Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_Description
+  name: Description
+  nameWithType: SettingDescriptor.Description
+  fullName: Zaya.Primitives.SettingDescriptor.Description
+- uid: Zaya.Primitives.SettingDescriptor.IsRequired
+  commentId: P:Zaya.Primitives.SettingDescriptor.IsRequired
+  parent: Zaya.Primitives.SettingDescriptor
+  href: Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_IsRequired
+  name: IsRequired
+  nameWithType: SettingDescriptor.IsRequired
+  fullName: Zaya.Primitives.SettingDescriptor.IsRequired
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zaya.Primitives.IntegerSettingDescriptor.DefaultValue*
+  commentId: Overload:Zaya.Primitives.IntegerSettingDescriptor.DefaultValue
+  href: Zaya.Primitives.IntegerSettingDescriptor.html#Zaya_Primitives_IntegerSettingDescriptor_DefaultValue
+  name: DefaultValue
+  nameWithType: IntegerSettingDescriptor.DefaultValue
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.DefaultValue
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Zaya.Primitives.IntegerSettingDescriptor.MinValue*
+  commentId: Overload:Zaya.Primitives.IntegerSettingDescriptor.MinValue
+  href: Zaya.Primitives.IntegerSettingDescriptor.html#Zaya_Primitives_IntegerSettingDescriptor_MinValue
+  name: MinValue
+  nameWithType: IntegerSettingDescriptor.MinValue
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.MinValue
+- uid: Zaya.Primitives.IntegerSettingDescriptor.MaxValue*
+  commentId: Overload:Zaya.Primitives.IntegerSettingDescriptor.MaxValue
+  href: Zaya.Primitives.IntegerSettingDescriptor.html#Zaya_Primitives_IntegerSettingDescriptor_MaxValue
+  name: MaxValue
+  nameWithType: IntegerSettingDescriptor.MaxValue
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.MaxValue
+- uid: Zaya.Primitives.IntegerSettingDescriptor
+  commentId: T:Zaya.Primitives.IntegerSettingDescriptor
+  href: Zaya.Primitives.IntegerSettingDescriptor.html
+  name: IntegerSettingDescriptor
+  nameWithType: IntegerSettingDescriptor
+  fullName: Zaya.Primitives.IntegerSettingDescriptor
+- uid: Zaya.Primitives.IntegerSettingDescriptor.#ctor*
+  commentId: Overload:Zaya.Primitives.IntegerSettingDescriptor.#ctor
+  href: Zaya.Primitives.IntegerSettingDescriptor.html#Zaya_Primitives_IntegerSettingDescriptor__ctor_System_String_Zaya_Primitives_LocalizedString_
+  name: IntegerSettingDescriptor
+  nameWithType: IntegerSettingDescriptor.IntegerSettingDescriptor
+  fullName: Zaya.Primitives.IntegerSettingDescriptor.IntegerSettingDescriptor
+  nameWithType.vb: IntegerSettingDescriptor.New
+  fullName.vb: Zaya.Primitives.IntegerSettingDescriptor.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Zaya.Primitives.LocalizedString
+  commentId: T:Zaya.Primitives.LocalizedString
+  parent: Zaya.Primitives
+  href: Zaya.Primitives.LocalizedString.html
+  name: LocalizedString
+  nameWithType: LocalizedString
+  fullName: Zaya.Primitives.LocalizedString
