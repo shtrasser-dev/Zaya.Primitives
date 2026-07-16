@@ -9,6 +9,7 @@ items:
   - Zaya.Primitives.EnumOption
   - Zaya.Primitives.EnumSettingDescriptor
   - Zaya.Primitives.FilePathSettingDescriptor
+  - Zaya.Primitives.IRawImage
   - Zaya.Primitives.IntegerSettingDescriptor
   - Zaya.Primitives.LocalizedException
   - Zaya.Primitives.LocalizedString
@@ -33,6 +34,12 @@ references:
   name: EnumOption
   nameWithType: EnumOption
   fullName: Zaya.Primitives.EnumOption
+- uid: Zaya.Primitives.IRawImage
+  commentId: T:Zaya.Primitives.IRawImage
+  href: Zaya.Primitives.IRawImage.html
+  name: IRawImage
+  nameWithType: IRawImage
+  fullName: Zaya.Primitives.IRawImage
 - uid: Zaya.Primitives.LocalizedException
   commentId: T:Zaya.Primitives.LocalizedException
   href: Zaya.Primitives.LocalizedException.html

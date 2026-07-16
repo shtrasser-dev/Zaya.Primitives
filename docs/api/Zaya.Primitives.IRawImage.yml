@@ -1,0 +1,437 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zaya.Primitives.IRawImage
+  commentId: T:Zaya.Primitives.IRawImage
+  id: IRawImage
+  parent: Zaya.Primitives
+  children:
+  - Zaya.Primitives.IRawImage.Format
+  - Zaya.Primitives.IRawImage.GetPixelData
+  - Zaya.Primitives.IRawImage.Height
+  - Zaya.Primitives.IRawImage.Stride
+  - Zaya.Primitives.IRawImage.ToByteArray
+  - Zaya.Primitives.IRawImage.Width
+  langs:
+  - csharp
+  - vb
+  name: IRawImage
+  nameWithType: IRawImage
+  fullName: Zaya.Primitives.IRawImage
+  type: Interface
+  source:
+    remote:
+      path: src/Zaya.Primitives/IRawImage.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: IRawImage
+    path: src/Zaya.Primitives/IRawImage.cs
+    startLine: 7
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: >-
+    Represents a raw in-memory image with direct pixel data access.
+
+    Contrast with encoded images (PNG, JPEG) — this is the decoded pixel buffer
+
+    with known dimensions, stride, and format.
+  example: []
+  syntax:
+    content: 'public interface IRawImage : IDisposable'
+    content.vb: Public Interface IRawImage Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: Zaya.Primitives.IRawImage.Width
+  commentId: P:Zaya.Primitives.IRawImage.Width
+  id: Width
+  parent: Zaya.Primitives.IRawImage
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: IRawImage.Width
+  fullName: Zaya.Primitives.IRawImage.Width
+  type: Property
+  source:
+    remote:
+      path: src/Zaya.Primitives/IRawImage.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: Width
+    path: src/Zaya.Primitives/IRawImage.cs
+    startLine: 12
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: Gets the width of the image in pixels.
+  example: []
+  syntax:
+    content: int Width { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Width As Integer
+  overload: Zaya.Primitives.IRawImage.Width*
+- uid: Zaya.Primitives.IRawImage.Height
+  commentId: P:Zaya.Primitives.IRawImage.Height
+  id: Height
+  parent: Zaya.Primitives.IRawImage
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: IRawImage.Height
+  fullName: Zaya.Primitives.IRawImage.Height
+  type: Property
+  source:
+    remote:
+      path: src/Zaya.Primitives/IRawImage.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: Height
+    path: src/Zaya.Primitives/IRawImage.cs
+    startLine: 17
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: Gets the height of the image in pixels.
+  example: []
+  syntax:
+    content: int Height { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Height As Integer
+  overload: Zaya.Primitives.IRawImage.Height*
+- uid: Zaya.Primitives.IRawImage.Stride
+  commentId: P:Zaya.Primitives.IRawImage.Stride
+  id: Stride
+  parent: Zaya.Primitives.IRawImage
+  langs:
+  - csharp
+  - vb
+  name: Stride
+  nameWithType: IRawImage.Stride
+  fullName: Zaya.Primitives.IRawImage.Stride
+  type: Property
+  source:
+    remote:
+      path: src/Zaya.Primitives/IRawImage.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: Stride
+    path: src/Zaya.Primitives/IRawImage.cs
+    startLine: 23
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: >-
+    Gets the number of bytes per row (stride).
+
+    May be larger than Width * BytesPerPixel due to memory alignment.
+  example: []
+  syntax:
+    content: int Stride { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Stride As Integer
+  overload: Zaya.Primitives.IRawImage.Stride*
+- uid: Zaya.Primitives.IRawImage.Format
+  commentId: P:Zaya.Primitives.IRawImage.Format
+  id: Format
+  parent: Zaya.Primitives.IRawImage
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: IRawImage.Format
+  fullName: Zaya.Primitives.IRawImage.Format
+  type: Property
+  source:
+    remote:
+      path: src/Zaya.Primitives/IRawImage.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: Format
+    path: src/Zaya.Primitives/IRawImage.cs
+    startLine: 28
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: Gets the pixel format of the image.
+  example: []
+  syntax:
+    content: PixelFormat Format { get; }
+    parameters: []
+    return:
+      type: Zaya.Primitives.PixelFormat
+    content.vb: ReadOnly Property Format As PixelFormat
+  overload: Zaya.Primitives.IRawImage.Format*
+- uid: Zaya.Primitives.IRawImage.GetPixelData
+  commentId: M:Zaya.Primitives.IRawImage.GetPixelData
+  id: GetPixelData
+  parent: Zaya.Primitives.IRawImage
+  langs:
+  - csharp
+  - vb
+  name: GetPixelData()
+  nameWithType: IRawImage.GetPixelData()
+  fullName: Zaya.Primitives.IRawImage.GetPixelData()
+  type: Method
+  source:
+    remote:
+      path: src/Zaya.Primitives/IRawImage.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: GetPixelData
+    path: src/Zaya.Primitives/IRawImage.cs
+    startLine: 34
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: >-
+    Gets the raw pixel data as a read-only span.
+
+    Direct access to the underlying buffer without additional allocations.
+  example: []
+  syntax:
+    content: ReadOnlySpan<byte> GetPixelData()
+    return:
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Function GetPixelData() As ReadOnlySpan(Of Byte)
+  overload: Zaya.Primitives.IRawImage.GetPixelData*
+- uid: Zaya.Primitives.IRawImage.ToByteArray
+  commentId: M:Zaya.Primitives.IRawImage.ToByteArray
+  id: ToByteArray
+  parent: Zaya.Primitives.IRawImage
+  langs:
+  - csharp
+  - vb
+  name: ToByteArray()
+  nameWithType: IRawImage.ToByteArray()
+  fullName: Zaya.Primitives.IRawImage.ToByteArray()
+  type: Method
+  source:
+    remote:
+      path: src/Zaya.Primitives/IRawImage.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: ToByteArray
+    path: src/Zaya.Primitives/IRawImage.cs
+    startLine: 41
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: >-
+    Creates a copy of the pixel data as a byte array.
+
+    Useful when the data needs to outlive the frame instance.
+  example: []
+  syntax:
+    content: byte[] ToByteArray()
+    return:
+      type: System.Byte[]
+      description: A new byte array containing a copy of the pixel data.
+    content.vb: Function ToByteArray() As Byte()
+  overload: Zaya.Primitives.IRawImage.ToByteArray*
+references:
+- uid: Zaya.Primitives
+  commentId: N:Zaya.Primitives
+  href: Zaya.html
+  name: Zaya.Primitives
+  nameWithType: Zaya.Primitives
+  fullName: Zaya.Primitives
+  spec.csharp:
+  - uid: Zaya
+    name: Zaya
+    href: Zaya.html
+  - name: .
+  - uid: Zaya.Primitives
+    name: Primitives
+    href: Zaya.Primitives.html
+  spec.vb:
+  - uid: Zaya
+    name: Zaya
+    href: Zaya.html
+  - name: .
+  - uid: Zaya.Primitives
+    name: Primitives
+    href: Zaya.Primitives.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zaya.Primitives.IRawImage.Width*
+  commentId: Overload:Zaya.Primitives.IRawImage.Width
+  href: Zaya.Primitives.IRawImage.html#Zaya_Primitives_IRawImage_Width
+  name: Width
+  nameWithType: IRawImage.Width
+  fullName: Zaya.Primitives.IRawImage.Width
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Zaya.Primitives.IRawImage.Height*
+  commentId: Overload:Zaya.Primitives.IRawImage.Height
+  href: Zaya.Primitives.IRawImage.html#Zaya_Primitives_IRawImage_Height
+  name: Height
+  nameWithType: IRawImage.Height
+  fullName: Zaya.Primitives.IRawImage.Height
+- uid: Zaya.Primitives.IRawImage.Stride*
+  commentId: Overload:Zaya.Primitives.IRawImage.Stride
+  href: Zaya.Primitives.IRawImage.html#Zaya_Primitives_IRawImage_Stride
+  name: Stride
+  nameWithType: IRawImage.Stride
+  fullName: Zaya.Primitives.IRawImage.Stride
+- uid: Zaya.Primitives.IRawImage.Format*
+  commentId: Overload:Zaya.Primitives.IRawImage.Format
+  href: Zaya.Primitives.IRawImage.html#Zaya_Primitives_IRawImage_Format
+  name: Format
+  nameWithType: IRawImage.Format
+  fullName: Zaya.Primitives.IRawImage.Format
+- uid: Zaya.Primitives.PixelFormat
+  commentId: T:Zaya.Primitives.PixelFormat
+  parent: Zaya.Primitives
+  href: Zaya.Primitives.PixelFormat.html
+  name: PixelFormat
+  nameWithType: PixelFormat
+  fullName: Zaya.Primitives.PixelFormat
+- uid: Zaya.Primitives.IRawImage.GetPixelData*
+  commentId: Overload:Zaya.Primitives.IRawImage.GetPixelData
+  href: Zaya.Primitives.IRawImage.html#Zaya_Primitives_IRawImage_GetPixelData
+  name: GetPixelData
+  nameWithType: IRawImage.GetPixelData
+  fullName: Zaya.Primitives.IRawImage.GetPixelData
+- uid: System.ReadOnlySpan{System.Byte}
+  commentId: T:System.ReadOnlySpan{System.Byte}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<byte>
+  nameWithType: ReadOnlySpan<byte>
+  fullName: System.ReadOnlySpan<byte>
+  nameWithType.vb: ReadOnlySpan(Of Byte)
+  fullName.vb: System.ReadOnlySpan(Of Byte)
+  name.vb: ReadOnlySpan(Of Byte)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Zaya.Primitives.IRawImage.ToByteArray*
+  commentId: Overload:Zaya.Primitives.IRawImage.ToByteArray
+  href: Zaya.Primitives.IRawImage.html#Zaya_Primitives_IRawImage_ToByteArray
+  name: ToByteArray
+  nameWithType: IRawImage.ToByteArray
+  fullName: Zaya.Primitives.IRawImage.ToByteArray
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )

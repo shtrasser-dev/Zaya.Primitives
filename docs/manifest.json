@@ -74,6 +74,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/api/Zaya.Primitives.IRawImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zaya.Primitives.IRawImage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zaya.Primitives.IRawImage",
+      "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.IRawImage.yml\" sourcestartlinenumber=\"1\">Represents a raw in-memory image with direct pixel data access.\nContrast with encoded images (PNG, JPEG) — this is the decoded pixel buffer\nwith known dimensions, stride, and format.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/api/Zaya.Primitives.IntegerSettingDescriptor.yml",
       "output": {
         ".html": {

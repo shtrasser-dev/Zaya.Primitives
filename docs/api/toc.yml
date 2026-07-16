@@ -19,6 +19,9 @@ items:
   - uid: Zaya.Primitives.FilePathSettingDescriptor
     name: FilePathSettingDescriptor
     type: Class
+  - uid: Zaya.Primitives.IRawImage
+    name: IRawImage
+    type: Interface
   - uid: Zaya.Primitives.IntegerSettingDescriptor
     name: IntegerSettingDescriptor
     type: Class
