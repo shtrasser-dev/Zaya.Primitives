@@ -775,6 +775,19 @@ references:
   isSpec: "True"
   fullName: Zaya.Primitives.SettingDescriptor.IsRequired
   nameWithType: SettingDescriptor.IsRequired
+- uid: Zaya.Primitives.SettingDescriptor.IsVisible
+  name: IsVisible
+  href: api/Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_IsVisible
+  commentId: P:Zaya.Primitives.SettingDescriptor.IsVisible
+  fullName: Zaya.Primitives.SettingDescriptor.IsVisible
+  nameWithType: SettingDescriptor.IsVisible
+- uid: Zaya.Primitives.SettingDescriptor.IsVisible*
+  name: IsVisible
+  href: api/Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_IsVisible_
+  commentId: Overload:Zaya.Primitives.SettingDescriptor.IsVisible
+  isSpec: "True"
+  fullName: Zaya.Primitives.SettingDescriptor.IsVisible
+  nameWithType: SettingDescriptor.IsVisible
 - uid: Zaya.Primitives.SettingDescriptor.Key
   name: Key
   href: api/Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_Key

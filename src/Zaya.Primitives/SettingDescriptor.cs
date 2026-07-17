@@ -24,9 +24,33 @@ public abstract class SettingDescriptor
     public LocalizedString? Description { get; init; }
 
     /// <summary>
-    /// Gets or sets whether this setting must be filled before the engine can be initialized.
+    /// Gets or sets a predicate that determines whether this setting is currently relevant,
+    /// based on the current values of all settings (keyed by <see cref="Key"/>).
+    /// Defaults to always visible.
     /// </summary>
-    public bool IsRequired { get; init; }
+    /// <remarks>
+    /// The host invokes the predicate with the dictionary of current setting values; keys may
+    /// be absent when a setting has not been set — the predicate should fall back to the
+    /// default value. Hosts should re-evaluate the predicate whenever any setting value changes,
+    /// hide the field when it returns <c>false</c>, and skip <see cref="IsRequired"/> validation
+    /// for hidden settings.
+    /// Example: <c>IsVisible = s => s.GetValueOrDefault("source") as string == "url"</c>.
+    /// </remarks>
+    public Func<IReadOnlyDictionary<string, object?>, bool> IsVisible { get; init; } = static _ => true;
+
+    /// <summary>
+    /// Gets or sets a predicate that determines whether this setting must be filled
+    /// before the engine can be initialized, based on the current values of all settings.
+    /// Defaults to not required.
+    /// </summary>
+    /// <remarks>
+    /// Same contract as <see cref="IsVisible"/>: the host passes current values (keys may be
+    /// absent), and re-evaluates on every change. Hosts evaluate this predicate only for
+    /// settings whose <see cref="IsVisible"/> returned <c>true</c>.
+    /// Example: <c>IsRequired = s => s.GetValueOrDefault("source") as string == "directory"</c>;
+    /// unconditional: <c>IsRequired = static _ => true</c>.
+    /// </remarks>
+    public Func<IReadOnlyDictionary<string, object?>, bool> IsRequired { get; init; } = static _ => false;
 
     /// <summary>
     /// Initializes a new instance of the <see cref="SettingDescriptor"/> class.

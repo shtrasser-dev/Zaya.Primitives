@@ -23,7 +23,7 @@ items:
       repo: https://github.com/shtrasser-dev/Zaya.Primitives
     id: IntegerSettingDescriptor
     path: src/Zaya.Primitives/SettingDescriptor.cs
-    startLine: 78
+    startLine: 102
   assemblies:
   - Zaya.Primitives
   namespace: Zaya.Primitives
@@ -39,6 +39,7 @@ items:
   - Zaya.Primitives.SettingDescriptor.Key
   - Zaya.Primitives.SettingDescriptor.DisplayName
   - Zaya.Primitives.SettingDescriptor.Description
+  - Zaya.Primitives.SettingDescriptor.IsVisible
   - Zaya.Primitives.SettingDescriptor.IsRequired
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -64,7 +65,7 @@ items:
       repo: https://github.com/shtrasser-dev/Zaya.Primitives
     id: DefaultValue
     path: src/Zaya.Primitives/SettingDescriptor.cs
-    startLine: 83
+    startLine: 107
   assemblies:
   - Zaya.Primitives
   namespace: Zaya.Primitives
@@ -95,7 +96,7 @@ items:
       repo: https://github.com/shtrasser-dev/Zaya.Primitives
     id: MinValue
     path: src/Zaya.Primitives/SettingDescriptor.cs
-    startLine: 88
+    startLine: 112
   assemblies:
   - Zaya.Primitives
   namespace: Zaya.Primitives
@@ -126,7 +127,7 @@ items:
       repo: https://github.com/shtrasser-dev/Zaya.Primitives
     id: MaxValue
     path: src/Zaya.Primitives/SettingDescriptor.cs
-    startLine: 93
+    startLine: 117
   assemblies:
   - Zaya.Primitives
   namespace: Zaya.Primitives
@@ -157,7 +158,7 @@ items:
       repo: https://github.com/shtrasser-dev/Zaya.Primitives
     id: .ctor
     path: src/Zaya.Primitives/SettingDescriptor.cs
-    startLine: 100
+    startLine: 124
   assemblies:
   - Zaya.Primitives
   namespace: Zaya.Primitives
@@ -239,6 +240,13 @@ references:
   name: Description
   nameWithType: SettingDescriptor.Description
   fullName: Zaya.Primitives.SettingDescriptor.Description
+- uid: Zaya.Primitives.SettingDescriptor.IsVisible
+  commentId: P:Zaya.Primitives.SettingDescriptor.IsVisible
+  parent: Zaya.Primitives.SettingDescriptor
+  href: Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_IsVisible
+  name: IsVisible
+  nameWithType: SettingDescriptor.IsVisible
+  fullName: Zaya.Primitives.SettingDescriptor.IsVisible
 - uid: Zaya.Primitives.SettingDescriptor.IsRequired
   commentId: P:Zaya.Primitives.SettingDescriptor.IsRequired
   parent: Zaya.Primitives.SettingDescriptor

@@ -54,14 +54,26 @@ var sourceSetting = new EnumSettingDescriptor("source", engineName)
 {
     Description = desc,
     DefaultValue = "snippingtool",
-    IsRequired = true,
+    IsRequired = static _ => true,
     Options =
     [
         new EnumOption("snippingtool", snippingLabel),
         new EnumOption("directory", directoryLabel),
     ]
 };
+
+var urlSetting = new UrlSettingDescriptor("downloadUrl", urlLabel)
+{
+    Description = urlDesc,
+    IsVisible  = s => s.GetValueOrDefault("source") as string == "url",
+    IsRequired = s => s.GetValueOrDefault("source") as string == "url",
+};
 ```
+
+Both `IsVisible` and `IsRequired` are predicates that receive the dictionary of current setting values
+(keyed by `Key`). The host re-evaluates them whenever any value changes; `IsRequired` is only checked
+for settings whose `IsVisible` returns `true`. A setting is always visible / never required when the
+predicate returns `true` / `false` for all inputs — use `static _ => true` or `static _ => false`.
 
 ### LocalizedException
 

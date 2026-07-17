@@ -21,7 +21,7 @@ items:
       repo: https://github.com/shtrasser-dev/Zaya.Primitives
     id: BooleanSettingDescriptor
     path: src/Zaya.Primitives/SettingDescriptor.cs
-    startLine: 106
+    startLine: 130
   assemblies:
   - Zaya.Primitives
   namespace: Zaya.Primitives
@@ -37,6 +37,7 @@ items:
   - Zaya.Primitives.SettingDescriptor.Key
   - Zaya.Primitives.SettingDescriptor.DisplayName
   - Zaya.Primitives.SettingDescriptor.Description
+  - Zaya.Primitives.SettingDescriptor.IsVisible
   - Zaya.Primitives.SettingDescriptor.IsRequired
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -62,7 +63,7 @@ items:
       repo: https://github.com/shtrasser-dev/Zaya.Primitives
     id: DefaultValue
     path: src/Zaya.Primitives/SettingDescriptor.cs
-    startLine: 111
+    startLine: 135
   assemblies:
   - Zaya.Primitives
   namespace: Zaya.Primitives
@@ -93,7 +94,7 @@ items:
       repo: https://github.com/shtrasser-dev/Zaya.Primitives
     id: .ctor
     path: src/Zaya.Primitives/SettingDescriptor.cs
-    startLine: 118
+    startLine: 142
   assemblies:
   - Zaya.Primitives
   namespace: Zaya.Primitives
@@ -175,6 +176,13 @@ references:
   name: Description
   nameWithType: SettingDescriptor.Description
   fullName: Zaya.Primitives.SettingDescriptor.Description
+- uid: Zaya.Primitives.SettingDescriptor.IsVisible
+  commentId: P:Zaya.Primitives.SettingDescriptor.IsVisible
+  parent: Zaya.Primitives.SettingDescriptor
+  href: Zaya.Primitives.SettingDescriptor.html#Zaya_Primitives_SettingDescriptor_IsVisible
+  name: IsVisible
+  nameWithType: SettingDescriptor.IsVisible
+  fullName: Zaya.Primitives.SettingDescriptor.IsVisible
 - uid: Zaya.Primitives.SettingDescriptor.IsRequired
   commentId: P:Zaya.Primitives.SettingDescriptor.IsRequired
   parent: Zaya.Primitives.SettingDescriptor

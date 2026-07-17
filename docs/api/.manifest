@@ -62,6 +62,7 @@
   "Zaya.Primitives.SettingDescriptor.Description": "Zaya.Primitives.SettingDescriptor.yml",
   "Zaya.Primitives.SettingDescriptor.DisplayName": "Zaya.Primitives.SettingDescriptor.yml",
   "Zaya.Primitives.SettingDescriptor.IsRequired": "Zaya.Primitives.SettingDescriptor.yml",
+  "Zaya.Primitives.SettingDescriptor.IsVisible": "Zaya.Primitives.SettingDescriptor.yml",
   "Zaya.Primitives.SettingDescriptor.Key": "Zaya.Primitives.SettingDescriptor.yml",
   "Zaya.Primitives.StringSettingDescriptor": "Zaya.Primitives.StringSettingDescriptor.yml",
   "Zaya.Primitives.StringSettingDescriptor.#ctor(System.String,Zaya.Primitives.LocalizedString)": "Zaya.Primitives.StringSettingDescriptor.yml",
