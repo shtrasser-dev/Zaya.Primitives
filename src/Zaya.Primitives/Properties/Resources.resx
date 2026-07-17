@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Lang_en" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Lang_ru" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="Lang_de" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="Lang_fr" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="Lang_es" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="Lang_it" xml:space="preserve">
+    <value>Italian</value>
+  </data>
+  <data name="Lang_pt" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="Lang_ja" xml:space="preserve">
+    <value>Japanese</value>
+  </data>
+  <data name="Lang_ko" xml:space="preserve">
+    <value>Korean</value>
+  </data>
+  <data name="Lang_zh-Hans" xml:space="preserve">
+    <value>Chinese (Simplified)</value>
+  </data>
+  <data name="Lang_zh-Hant" xml:space="preserve">
+    <value>Chinese (Traditional)</value>
+  </data>
+  <data name="Lang_ar" xml:space="preserve">
+    <value>Arabic</value>
+  </data>
+  <data name="Lang_tr" xml:space="preserve">
+    <value>Turkish</value>
+  </data>
+  <data name="Lang_uk" xml:space="preserve">
+    <value>Ukrainian</value>
+  </data>
+  <data name="Lang_pl" xml:space="preserve">
+    <value>Polish</value>
+  </data>
+</root>

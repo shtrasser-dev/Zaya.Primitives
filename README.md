@@ -5,6 +5,8 @@ Fundamental types for the Zaya ecosystem — zero dependencies, cross-platform.
 ## Features
 
 - **PixelFormat** — strongly-typed pixel format definitions (Bgra32, Rgb24, Bgr24, Gray8) with bytes-per-pixel metadata
+- **IRawImage** — generic in-memory raw pixel image (Width, Height, Stride, Format, GetPixelData, ToByteArray)
+- **Languages** — static list of 15 common languages as `EnumOption` with BCP-47 codes and localized names (en, ru)
 - **LocalizedString** — localizable string with deferred resolver (.resx ResourceManager); no hardcoded defaults in code
 - **LocalizedException** — base class for exceptions carrying a localization key; subclasses resolve via .resx
 - **SettingDescriptor** — polymorphic hierarchy for describing configurable engine settings (string, int, bool, enum, file, directory, url, password)
@@ -76,6 +78,43 @@ public sealed class MyNotFoundException : LocalizedException
 // Throw — no hardcoded strings
 throw new MyNotFoundException();
 ```
+
+### Languages
+
+```csharp
+using Zaya.Primitives;
+
+// Static list of 15 common languages — use in EnumSettingDescriptor.Options
+var langSetting = new EnumSettingDescriptor("language", desc)
+{
+    Options = Languages.All
+};
+
+// Find by BCP-47 code
+var russian = Languages.Find("ru");
+Console.WriteLine(russian!.Value);       // "ru"
+Console.WriteLine(russian.DisplayName.GetValue(new CultureInfo("ru-RU"))); // "Русский"
+```
+
+## Supported Languages
+
+| Code | English | Russian |
+|------|---------|---------|
+| `en` | English | Английский |
+| `ru` | Russian | Русский |
+| `de` | German | Немецкий |
+| `fr` | French | Французский |
+| `es` | Spanish | Испанский |
+| `it` | Italian | Итальянский |
+| `pt` | Portuguese | Португальский |
+| `ja` | Japanese | Японский |
+| `ko` | Korean | Корейский |
+| `zh-Hans` | Chinese (Simplified) | Китайский (упрощённый) |
+| `zh-Hant` | Chinese (Traditional) | Китайский (традиционный) |
+| `ar` | Arabic | Арабский |
+| `tr` | Turkish | Турецкий |
+| `uk` | Ukrainian | Украинский |
+| `pl` | Polish | Польский |
 
 ## Available Pixel Formats
 

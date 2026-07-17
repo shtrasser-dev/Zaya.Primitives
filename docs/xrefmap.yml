@@ -410,6 +410,41 @@ references:
   isSpec: "True"
   fullName: Zaya.Primitives.IntegerSettingDescriptor.MinValue
   nameWithType: IntegerSettingDescriptor.MinValue
+- uid: Zaya.Primitives.Languages
+  name: Languages
+  href: api/Zaya.Primitives.Languages.html
+  commentId: T:Zaya.Primitives.Languages
+  fullName: Zaya.Primitives.Languages
+  nameWithType: Languages
+- uid: Zaya.Primitives.Languages.All
+  name: All
+  href: api/Zaya.Primitives.Languages.html#Zaya_Primitives_Languages_All
+  commentId: P:Zaya.Primitives.Languages.All
+  fullName: Zaya.Primitives.Languages.All
+  nameWithType: Languages.All
+- uid: Zaya.Primitives.Languages.All*
+  name: All
+  href: api/Zaya.Primitives.Languages.html#Zaya_Primitives_Languages_All_
+  commentId: Overload:Zaya.Primitives.Languages.All
+  isSpec: "True"
+  fullName: Zaya.Primitives.Languages.All
+  nameWithType: Languages.All
+- uid: Zaya.Primitives.Languages.Find(System.String)
+  name: Find(string)
+  href: api/Zaya.Primitives.Languages.html#Zaya_Primitives_Languages_Find_System_String_
+  commentId: M:Zaya.Primitives.Languages.Find(System.String)
+  name.vb: Find(String)
+  fullName: Zaya.Primitives.Languages.Find(string)
+  fullName.vb: Zaya.Primitives.Languages.Find(String)
+  nameWithType: Languages.Find(string)
+  nameWithType.vb: Languages.Find(String)
+- uid: Zaya.Primitives.Languages.Find*
+  name: Find
+  href: api/Zaya.Primitives.Languages.html#Zaya_Primitives_Languages_Find_
+  commentId: Overload:Zaya.Primitives.Languages.Find
+  isSpec: "True"
+  fullName: Zaya.Primitives.Languages.Find
+  nameWithType: Languages.Find
 - uid: Zaya.Primitives.LocalizedException
   name: LocalizedException
   href: api/Zaya.Primitives.LocalizedException.html

@@ -25,6 +25,9 @@ items:
   - uid: Zaya.Primitives.IntegerSettingDescriptor
     name: IntegerSettingDescriptor
     type: Class
+  - uid: Zaya.Primitives.Languages
+    name: Languages
+    type: Class
   - uid: Zaya.Primitives.LocalizedException
     name: LocalizedException
     type: Class

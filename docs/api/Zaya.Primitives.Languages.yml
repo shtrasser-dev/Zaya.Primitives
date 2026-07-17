@@ -1,40 +1,42 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Zaya.Primitives.EnumOption
-  commentId: T:Zaya.Primitives.EnumOption
-  id: EnumOption
+- uid: Zaya.Primitives.Languages
+  commentId: T:Zaya.Primitives.Languages
+  id: Languages
   parent: Zaya.Primitives
   children:
-  - Zaya.Primitives.EnumOption.#ctor(System.String,Zaya.Primitives.LocalizedString,Zaya.Primitives.LocalizedString)
-  - Zaya.Primitives.EnumOption.Description
-  - Zaya.Primitives.EnumOption.DisplayName
-  - Zaya.Primitives.EnumOption.Value
+  - Zaya.Primitives.Languages.All
+  - Zaya.Primitives.Languages.Find(System.String)
   langs:
   - csharp
   - vb
-  name: EnumOption
-  nameWithType: EnumOption
-  fullName: Zaya.Primitives.EnumOption
+  name: Languages
+  nameWithType: Languages
+  fullName: Zaya.Primitives.Languages
   type: Class
   source:
     remote:
-      path: src/Zaya.Primitives/EnumOption.cs
+      path: src/Zaya.Primitives/Languages.cs
       branch: main
       repo: https://github.com/shtrasser-dev/Zaya.Primitives
-    id: EnumOption
-    path: src/Zaya.Primitives/EnumOption.cs
-    startLine: 6
+    id: Languages
+    path: src/Zaya.Primitives/Languages.cs
+    startLine: 10
   assemblies:
   - Zaya.Primitives
   namespace: Zaya.Primitives
   summary: >-
-    Represents a single option in an enum-style setting, pairing a machine-readable value
+    Provides a static list of common languages as <xref href="Zaya.Primitives.EnumOption" data-throw-if-not-resolved="false"></xref> values.
 
-    with a localizable display name and optional description.
+    OCR, translation, and other engines reference <xref href="Zaya.Primitives.Languages.All" data-throw-if-not-resolved="false"></xref> in their
+
+    <xref href="Zaya.Primitives.EnumSettingDescriptor.Options" data-throw-if-not-resolved="false"></xref> to present a language dropdown in the host UI.
+
+    Each option's <xref href="Zaya.Primitives.EnumOption.Value" data-throw-if-not-resolved="false"></xref> is a BCP-47 tag (e.g. "ru", "zh-Hans").
   example: []
   syntax:
-    content: public class EnumOption
-    content.vb: Public Class EnumOption
+    content: public static class Languages
+    content.vb: Public Module Languages
   inheritance:
   - System.Object
   inheritedMembers:
@@ -45,141 +47,104 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Zaya.Primitives.EnumOption.Value
-  commentId: P:Zaya.Primitives.EnumOption.Value
-  id: Value
-  parent: Zaya.Primitives.EnumOption
+- uid: Zaya.Primitives.Languages.All
+  commentId: P:Zaya.Primitives.Languages.All
+  id: All
+  parent: Zaya.Primitives.Languages
   langs:
   - csharp
   - vb
+  name: All
+  nameWithType: Languages.All
+  fullName: Zaya.Primitives.Languages.All
+  type: Property
+  source:
+    remote:
+      path: src/Zaya.Primitives/Languages.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: All
+    path: src/Zaya.Primitives/Languages.cs
+    startLine: 46
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: >-
+    Gets the list of 15 common languages as <xref href="Zaya.Primitives.EnumOption" data-throw-if-not-resolved="false"></xref> values
+
+    with BCP-47 codes and localized display names.
+  example: []
+  syntax:
+    content: public static IReadOnlyList<EnumOption> All { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Zaya.Primitives.EnumOption}
+    content.vb: Public Shared ReadOnly Property All As IReadOnlyList(Of EnumOption)
+  overload: Zaya.Primitives.Languages.All*
+- uid: Zaya.Primitives.Languages.Find(System.String)
+  commentId: M:Zaya.Primitives.Languages.Find(System.String)
+  id: Find(System.String)
+  parent: Zaya.Primitives.Languages
+  langs:
+  - csharp
+  - vb
+  name: Find(string)
+  nameWithType: Languages.Find(string)
+  fullName: Zaya.Primitives.Languages.Find(string)
+  type: Method
+  source:
+    remote:
+      path: src/Zaya.Primitives/Languages.cs
+      branch: main
+      repo: https://github.com/shtrasser-dev/Zaya.Primitives
+    id: Find
+    path: src/Zaya.Primitives/Languages.cs
+    startLine: 53
+  assemblies:
+  - Zaya.Primitives
+  namespace: Zaya.Primitives
+  summary: Finds a language by its BCP-47 code (case-insensitive).
+  example: []
+  syntax:
+    content: public static EnumOption? Find(string bcp47)
+    parameters:
+    - id: bcp47
+      type: System.String
+      description: The BCP-47 tag, e.g. "ru" or "zh-Hans".
+    return:
+      type: Zaya.Primitives.EnumOption
+      description: The matching <xref href="Zaya.Primitives.EnumOption" data-throw-if-not-resolved="false"></xref>, or <code>null</code> if not found.
+    content.vb: Public Shared Function Find(bcp47 As String) As EnumOption
+  overload: Zaya.Primitives.Languages.Find*
+  nameWithType.vb: Languages.Find(String)
+  fullName.vb: Zaya.Primitives.Languages.Find(String)
+  name.vb: Find(String)
+references:
+- uid: Zaya.Primitives.EnumOption
+  commentId: T:Zaya.Primitives.EnumOption
+  parent: Zaya.Primitives
+  href: Zaya.Primitives.EnumOption.html
+  name: EnumOption
+  nameWithType: EnumOption
+  fullName: Zaya.Primitives.EnumOption
+- uid: Zaya.Primitives.Languages.All
+  commentId: P:Zaya.Primitives.Languages.All
+  href: Zaya.Primitives.Languages.html#Zaya_Primitives_Languages_All
+  name: All
+  nameWithType: Languages.All
+  fullName: Zaya.Primitives.Languages.All
+- uid: Zaya.Primitives.EnumSettingDescriptor.Options
+  commentId: P:Zaya.Primitives.EnumSettingDescriptor.Options
+  href: Zaya.Primitives.EnumSettingDescriptor.html#Zaya_Primitives_EnumSettingDescriptor_Options
+  name: Options
+  nameWithType: EnumSettingDescriptor.Options
+  fullName: Zaya.Primitives.EnumSettingDescriptor.Options
+- uid: Zaya.Primitives.EnumOption.Value
+  commentId: P:Zaya.Primitives.EnumOption.Value
+  href: Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption_Value
   name: Value
   nameWithType: EnumOption.Value
   fullName: Zaya.Primitives.EnumOption.Value
-  type: Property
-  source:
-    remote:
-      path: src/Zaya.Primitives/EnumOption.cs
-      branch: main
-      repo: https://github.com/shtrasser-dev/Zaya.Primitives
-    id: Value
-    path: src/Zaya.Primitives/EnumOption.cs
-    startLine: 11
-  assemblies:
-  - Zaya.Primitives
-  namespace: Zaya.Primitives
-  summary: Gets the machine-readable value (e.g. "snippingtool", "directory").
-  example: []
-  syntax:
-    content: public string Value { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public ReadOnly Property Value As String
-  overload: Zaya.Primitives.EnumOption.Value*
-- uid: Zaya.Primitives.EnumOption.DisplayName
-  commentId: P:Zaya.Primitives.EnumOption.DisplayName
-  id: DisplayName
-  parent: Zaya.Primitives.EnumOption
-  langs:
-  - csharp
-  - vb
-  name: DisplayName
-  nameWithType: EnumOption.DisplayName
-  fullName: Zaya.Primitives.EnumOption.DisplayName
-  type: Property
-  source:
-    remote:
-      path: src/Zaya.Primitives/EnumOption.cs
-      branch: main
-      repo: https://github.com/shtrasser-dev/Zaya.Primitives
-    id: DisplayName
-    path: src/Zaya.Primitives/EnumOption.cs
-    startLine: 16
-  assemblies:
-  - Zaya.Primitives
-  namespace: Zaya.Primitives
-  summary: Gets the localizable display name shown in the UI.
-  example: []
-  syntax:
-    content: public LocalizedString DisplayName { get; }
-    parameters: []
-    return:
-      type: Zaya.Primitives.LocalizedString
-    content.vb: Public ReadOnly Property DisplayName As LocalizedString
-  overload: Zaya.Primitives.EnumOption.DisplayName*
-- uid: Zaya.Primitives.EnumOption.Description
-  commentId: P:Zaya.Primitives.EnumOption.Description
-  id: Description
-  parent: Zaya.Primitives.EnumOption
-  langs:
-  - csharp
-  - vb
-  name: Description
-  nameWithType: EnumOption.Description
-  fullName: Zaya.Primitives.EnumOption.Description
-  type: Property
-  source:
-    remote:
-      path: src/Zaya.Primitives/EnumOption.cs
-      branch: main
-      repo: https://github.com/shtrasser-dev/Zaya.Primitives
-    id: Description
-    path: src/Zaya.Primitives/EnumOption.cs
-    startLine: 21
-  assemblies:
-  - Zaya.Primitives
-  namespace: Zaya.Primitives
-  summary: Gets the optional localizable description (tooltip / help text).
-  example: []
-  syntax:
-    content: public LocalizedString? Description { get; }
-    parameters: []
-    return:
-      type: Zaya.Primitives.LocalizedString
-    content.vb: Public ReadOnly Property Description As LocalizedString
-  overload: Zaya.Primitives.EnumOption.Description*
-- uid: Zaya.Primitives.EnumOption.#ctor(System.String,Zaya.Primitives.LocalizedString,Zaya.Primitives.LocalizedString)
-  commentId: M:Zaya.Primitives.EnumOption.#ctor(System.String,Zaya.Primitives.LocalizedString,Zaya.Primitives.LocalizedString)
-  id: '#ctor(System.String,Zaya.Primitives.LocalizedString,Zaya.Primitives.LocalizedString)'
-  parent: Zaya.Primitives.EnumOption
-  langs:
-  - csharp
-  - vb
-  name: EnumOption(string, LocalizedString, LocalizedString?)
-  nameWithType: EnumOption.EnumOption(string, LocalizedString, LocalizedString?)
-  fullName: Zaya.Primitives.EnumOption.EnumOption(string, Zaya.Primitives.LocalizedString, Zaya.Primitives.LocalizedString?)
-  type: Constructor
-  source:
-    remote:
-      path: src/Zaya.Primitives/EnumOption.cs
-      branch: main
-      repo: https://github.com/shtrasser-dev/Zaya.Primitives
-    id: .ctor
-    path: src/Zaya.Primitives/EnumOption.cs
-    startLine: 29
-  assemblies:
-  - Zaya.Primitives
-  namespace: Zaya.Primitives
-  summary: Initializes a new instance of the <xref href="Zaya.Primitives.EnumOption" data-throw-if-not-resolved="false"></xref> class.
-  example: []
-  syntax:
-    content: public EnumOption(string value, LocalizedString displayName, LocalizedString? description = null)
-    parameters:
-    - id: value
-      type: System.String
-      description: Machine-readable option value.
-    - id: displayName
-      type: Zaya.Primitives.LocalizedString
-      description: UI display name.
-    - id: description
-      type: Zaya.Primitives.LocalizedString
-      description: Optional description (tooltip).
-    content.vb: Public Sub New(value As String, displayName As LocalizedString, description As LocalizedString = Nothing)
-  overload: Zaya.Primitives.EnumOption.#ctor*
-  nameWithType.vb: EnumOption.New(String, LocalizedString, LocalizedString)
-  fullName.vb: Zaya.Primitives.EnumOption.New(String, Zaya.Primitives.LocalizedString, Zaya.Primitives.LocalizedString)
-  name.vb: New(String, LocalizedString, LocalizedString)
-references:
 - uid: Zaya.Primitives
   commentId: N:Zaya.Primitives
   href: Zaya.html
@@ -439,12 +404,116 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Zaya.Primitives.EnumOption.Value*
-  commentId: Overload:Zaya.Primitives.EnumOption.Value
-  href: Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption_Value
-  name: Value
-  nameWithType: EnumOption.Value
-  fullName: Zaya.Primitives.EnumOption.Value
+- uid: Zaya.Primitives.Languages.All*
+  commentId: Overload:Zaya.Primitives.Languages.All
+  href: Zaya.Primitives.Languages.html#Zaya_Primitives_Languages_All
+  name: All
+  nameWithType: Languages.All
+  fullName: Zaya.Primitives.Languages.All
+- uid: System.Collections.Generic.IReadOnlyList{Zaya.Primitives.EnumOption}
+  commentId: T:System.Collections.Generic.IReadOnlyList{Zaya.Primitives.EnumOption}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<EnumOption>
+  nameWithType: IReadOnlyList<EnumOption>
+  fullName: System.Collections.Generic.IReadOnlyList<Zaya.Primitives.EnumOption>
+  nameWithType.vb: IReadOnlyList(Of EnumOption)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of Zaya.Primitives.EnumOption)
+  name.vb: IReadOnlyList(Of EnumOption)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: Zaya.Primitives.EnumOption
+    name: EnumOption
+    href: Zaya.Primitives.EnumOption.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Zaya.Primitives.EnumOption
+    name: EnumOption
+    href: Zaya.Primitives.EnumOption.html
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Zaya.Primitives.Languages.Find*
+  commentId: Overload:Zaya.Primitives.Languages.Find
+  href: Zaya.Primitives.Languages.html#Zaya_Primitives_Languages_Find_System_String_
+  name: Find
+  nameWithType: Languages.Find
+  fullName: Zaya.Primitives.Languages.Find
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -456,38 +525,3 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: Zaya.Primitives.EnumOption.DisplayName*
-  commentId: Overload:Zaya.Primitives.EnumOption.DisplayName
-  href: Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption_DisplayName
-  name: DisplayName
-  nameWithType: EnumOption.DisplayName
-  fullName: Zaya.Primitives.EnumOption.DisplayName
-- uid: Zaya.Primitives.LocalizedString
-  commentId: T:Zaya.Primitives.LocalizedString
-  parent: Zaya.Primitives
-  href: Zaya.Primitives.LocalizedString.html
-  name: LocalizedString
-  nameWithType: LocalizedString
-  fullName: Zaya.Primitives.LocalizedString
-- uid: Zaya.Primitives.EnumOption.Description*
-  commentId: Overload:Zaya.Primitives.EnumOption.Description
-  href: Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption_Description
-  name: Description
-  nameWithType: EnumOption.Description
-  fullName: Zaya.Primitives.EnumOption.Description
-- uid: Zaya.Primitives.EnumOption
-  commentId: T:Zaya.Primitives.EnumOption
-  parent: Zaya.Primitives
-  href: Zaya.Primitives.EnumOption.html
-  name: EnumOption
-  nameWithType: EnumOption
-  fullName: Zaya.Primitives.EnumOption
-- uid: Zaya.Primitives.EnumOption.#ctor*
-  commentId: Overload:Zaya.Primitives.EnumOption.#ctor
-  href: Zaya.Primitives.EnumOption.html#Zaya_Primitives_EnumOption__ctor_System_String_Zaya_Primitives_LocalizedString_Zaya_Primitives_LocalizedString_
-  name: EnumOption
-  nameWithType: EnumOption.EnumOption
-  fullName: Zaya.Primitives.EnumOption.EnumOption
-  nameWithType.vb: EnumOption.New
-  fullName.vb: Zaya.Primitives.EnumOption.New
-  name.vb: New

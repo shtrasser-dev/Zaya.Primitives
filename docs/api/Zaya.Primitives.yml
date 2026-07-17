@@ -11,6 +11,7 @@ items:
   - Zaya.Primitives.FilePathSettingDescriptor
   - Zaya.Primitives.IRawImage
   - Zaya.Primitives.IntegerSettingDescriptor
+  - Zaya.Primitives.Languages
   - Zaya.Primitives.LocalizedException
   - Zaya.Primitives.LocalizedString
   - Zaya.Primitives.PasswordSettingDescriptor
@@ -30,6 +31,7 @@ items:
 references:
 - uid: Zaya.Primitives.EnumOption
   commentId: T:Zaya.Primitives.EnumOption
+  parent: Zaya.Primitives
   href: Zaya.Primitives.EnumOption.html
   name: EnumOption
   nameWithType: EnumOption
@@ -40,6 +42,12 @@ references:
   name: IRawImage
   nameWithType: IRawImage
   fullName: Zaya.Primitives.IRawImage
+- uid: Zaya.Primitives.Languages
+  commentId: T:Zaya.Primitives.Languages
+  href: Zaya.Primitives.Languages.html
+  name: Languages
+  nameWithType: Languages
+  fullName: Zaya.Primitives.Languages
 - uid: Zaya.Primitives.LocalizedException
   commentId: T:Zaya.Primitives.LocalizedException
   href: Zaya.Primitives.LocalizedException.html

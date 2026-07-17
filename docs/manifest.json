@@ -102,6 +102,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/api/Zaya.Primitives.Languages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zaya.Primitives.Languages.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zaya.Primitives.Languages",
+      "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.Languages.yml\" sourcestartlinenumber=\"1\">Provides a static list of common languages as <xref href=\"Zaya.Primitives.EnumOption\" data-throw-if-not-resolved=\"false\"></xref> values.\nOCR, translation, and other engines reference <xref href=\"Zaya.Primitives.Languages.All\" data-throw-if-not-resolved=\"false\"></xref> in their\n<xref href=\"Zaya.Primitives.EnumSettingDescriptor.Options\" data-throw-if-not-resolved=\"false\"></xref> to present a language dropdown in the host UI.\nEach option's <xref href=\"Zaya.Primitives.EnumOption.Value\" data-throw-if-not-resolved=\"false\"></xref> is a BCP-47 tag (e.g. &quot;ru&quot;, &quot;zh-Hans&quot;).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/api/Zaya.Primitives.LocalizedException.yml",
       "output": {
         ".html": {
