@@ -186,6 +186,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/api/Zaya.Primitives.SettingDescriptorList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zaya.Primitives.SettingDescriptorList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zaya.Primitives.SettingDescriptorList",
+      "Summary": "<p sourcefile=\"docs/api/Zaya.Primitives.SettingDescriptorList.yml\" sourcestartlinenumber=\"1\">Wraps a collection of <xref href=\"Zaya.Primitives.SettingDescriptor\" data-throw-if-not-resolved=\"false\"></xref> and provides typed getters\n(<xref href=\"Zaya.Primitives.SettingDescriptorList.GetValueAsString(System.String)\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"Zaya.Primitives.SettingDescriptorList.GetValueAsInt(System.String)\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"Zaya.Primitives.SettingDescriptorList.GetValueAsBool(System.String)\" data-throw-if-not-resolved=\"false\"></xref>)\nthat read from a bound user-provided dictionary and fall back to the descriptors' default values.\nPlugins declare descriptors once, the host renders the UI, and the plugin consumes the values\nwithout manual parsing or default-value handling.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/api/Zaya.Primitives.StringSettingDescriptor.yml",
       "output": {
         ".html": {

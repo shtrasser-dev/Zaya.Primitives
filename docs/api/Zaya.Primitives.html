@@ -119,6 +119,13 @@ Subclasses carry type-specific properties (e.g. <a class="xref" href="Zaya.Primi
 <a class="xref" href="Zaya.Primitives.IntegerSettingDescriptor.html#Zaya_Primitives_IntegerSettingDescriptor_MinValue">MinValue</a>, <a class="xref" href="Zaya.Primitives.EnumSettingDescriptor.html#Zaya_Primitives_EnumSettingDescriptor_Options">Options</a>).
 Hosts use pattern matching on the concrete type to render the appropriate UI control.</p>
 </section>
+      <h4><a class="xref" href="Zaya.Primitives.SettingDescriptorList.html">SettingDescriptorList</a></h4>
+      <section><p>Wraps a collection of <a class="xref" href="Zaya.Primitives.SettingDescriptor.html">SettingDescriptor</a> and provides typed getters
+(<a class="xref" href="Zaya.Primitives.SettingDescriptorList.html#Zaya_Primitives_SettingDescriptorList_GetValueAsString_System_String_">GetValueAsString(string)</a>, <a class="xref" href="Zaya.Primitives.SettingDescriptorList.html#Zaya_Primitives_SettingDescriptorList_GetValueAsInt_System_String_">GetValueAsInt(string)</a>, <a class="xref" href="Zaya.Primitives.SettingDescriptorList.html#Zaya_Primitives_SettingDescriptorList_GetValueAsBool_System_String_">GetValueAsBool(string)</a>)
+that read from a bound user-provided dictionary and fall back to the descriptors' default values.
+Plugins declare descriptors once, the host renders the UI, and the plugin consumes the values
+without manual parsing or default-value handling.</p>
+</section>
       <h4><a class="xref" href="Zaya.Primitives.StringSettingDescriptor.html">StringSettingDescriptor</a></h4>
       <section><p>Descriptor for a free-text string setting. Supports min/max length and optional regex validation.</p>
 </section>

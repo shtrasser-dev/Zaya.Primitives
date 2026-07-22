@@ -801,6 +801,108 @@ references:
   isSpec: "True"
   fullName: Zaya.Primitives.SettingDescriptor.Key
   nameWithType: SettingDescriptor.Key
+- uid: Zaya.Primitives.SettingDescriptorList
+  name: SettingDescriptorList
+  href: api/Zaya.Primitives.SettingDescriptorList.html
+  commentId: T:Zaya.Primitives.SettingDescriptorList
+  fullName: Zaya.Primitives.SettingDescriptorList
+  nameWithType: SettingDescriptorList
+- uid: Zaya.Primitives.SettingDescriptorList.#ctor(System.Collections.Generic.IReadOnlyList{Zaya.Primitives.SettingDescriptor})
+  name: SettingDescriptorList(IReadOnlyList<SettingDescriptor>)
+  href: api/Zaya.Primitives.SettingDescriptorList.html#Zaya_Primitives_SettingDescriptorList__ctor_System_Collections_Generic_IReadOnlyList_Zaya_Primitives_SettingDescriptor__
+  commentId: M:Zaya.Primitives.SettingDescriptorList.#ctor(System.Collections.Generic.IReadOnlyList{Zaya.Primitives.SettingDescriptor})
+  name.vb: New(IReadOnlyList(Of SettingDescriptor))
+  fullName: Zaya.Primitives.SettingDescriptorList.SettingDescriptorList(System.Collections.Generic.IReadOnlyList<Zaya.Primitives.SettingDescriptor>)
+  fullName.vb: Zaya.Primitives.SettingDescriptorList.New(System.Collections.Generic.IReadOnlyList(Of Zaya.Primitives.SettingDescriptor))
+  nameWithType: SettingDescriptorList.SettingDescriptorList(IReadOnlyList<SettingDescriptor>)
+  nameWithType.vb: SettingDescriptorList.New(IReadOnlyList(Of SettingDescriptor))
+- uid: Zaya.Primitives.SettingDescriptorList.#ctor*
+  name: SettingDescriptorList
+  href: api/Zaya.Primitives.SettingDescriptorList.html#Zaya_Primitives_SettingDescriptorList__ctor_
+  commentId: Overload:Zaya.Primitives.SettingDescriptorList.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Zaya.Primitives.SettingDescriptorList.SettingDescriptorList
+  fullName.vb: Zaya.Primitives.SettingDescriptorList.New
+  nameWithType: SettingDescriptorList.SettingDescriptorList
+  nameWithType.vb: SettingDescriptorList.New
+- uid: Zaya.Primitives.SettingDescriptorList.Bind(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})
+  name: Bind(IReadOnlyDictionary<string, object?>)
+  href: api/Zaya.Primitives.SettingDescriptorList.html#Zaya_Primitives_SettingDescriptorList_Bind_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Object__
+  commentId: M:Zaya.Primitives.SettingDescriptorList.Bind(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})
+  name.vb: Bind(IReadOnlyDictionary(Of String, Object))
+  fullName: Zaya.Primitives.SettingDescriptorList.Bind(System.Collections.Generic.IReadOnlyDictionary<string, object?>)
+  fullName.vb: Zaya.Primitives.SettingDescriptorList.Bind(System.Collections.Generic.IReadOnlyDictionary(Of String, Object))
+  nameWithType: SettingDescriptorList.Bind(IReadOnlyDictionary<string, object?>)
+  nameWithType.vb: SettingDescriptorList.Bind(IReadOnlyDictionary(Of String, Object))
+- uid: Zaya.Primitives.SettingDescriptorList.Bind*
+  name: Bind
+  href: api/Zaya.Primitives.SettingDescriptorList.html#Zaya_Primitives_SettingDescriptorList_Bind_
+  commentId: Overload:Zaya.Primitives.SettingDescriptorList.Bind
+  isSpec: "True"
+  fullName: Zaya.Primitives.SettingDescriptorList.Bind
+  nameWithType: SettingDescriptorList.Bind
+- uid: Zaya.Primitives.SettingDescriptorList.Descriptors
+  name: Descriptors
+  href: api/Zaya.Primitives.SettingDescriptorList.html#Zaya_Primitives_SettingDescriptorList_Descriptors
+  commentId: P:Zaya.Primitives.SettingDescriptorList.Descriptors
+  fullName: Zaya.Primitives.SettingDescriptorList.Descriptors
+  nameWithType: SettingDescriptorList.Descriptors
+- uid: Zaya.Primitives.SettingDescriptorList.Descriptors*
+  name: Descriptors
+  href: api/Zaya.Primitives.SettingDescriptorList.html#Zaya_Primitives_SettingDescriptorList_Descriptors_
+  commentId: Overload:Zaya.Primitives.SettingDescriptorList.Descriptors
+  isSpec: "True"
+  fullName: Zaya.Primitives.SettingDescriptorList.Descriptors
+  nameWithType: SettingDescriptorList.Descriptors
+- uid: Zaya.Primitives.SettingDescriptorList.GetValueAsBool(System.String)
+  name: GetValueAsBool(string)
+  href: api/Zaya.Primitives.SettingDescriptorList.html#Zaya_Primitives_SettingDescriptorList_GetValueAsBool_System_String_
+  commentId: M:Zaya.Primitives.SettingDescriptorList.GetValueAsBool(System.String)
+  name.vb: GetValueAsBool(String)
+  fullName: Zaya.Primitives.SettingDescriptorList.GetValueAsBool(string)
+  fullName.vb: Zaya.Primitives.SettingDescriptorList.GetValueAsBool(String)
+  nameWithType: SettingDescriptorList.GetValueAsBool(string)
+  nameWithType.vb: SettingDescriptorList.GetValueAsBool(String)
+- uid: Zaya.Primitives.SettingDescriptorList.GetValueAsBool*
+  name: GetValueAsBool
+  href: api/Zaya.Primitives.SettingDescriptorList.html#Zaya_Primitives_SettingDescriptorList_GetValueAsBool_
+  commentId: Overload:Zaya.Primitives.SettingDescriptorList.GetValueAsBool
+  isSpec: "True"
+  fullName: Zaya.Primitives.SettingDescriptorList.GetValueAsBool
+  nameWithType: SettingDescriptorList.GetValueAsBool
+- uid: Zaya.Primitives.SettingDescriptorList.GetValueAsInt(System.String)
+  name: GetValueAsInt(string)
+  href: api/Zaya.Primitives.SettingDescriptorList.html#Zaya_Primitives_SettingDescriptorList_GetValueAsInt_System_String_
+  commentId: M:Zaya.Primitives.SettingDescriptorList.GetValueAsInt(System.String)
+  name.vb: GetValueAsInt(String)
+  fullName: Zaya.Primitives.SettingDescriptorList.GetValueAsInt(string)
+  fullName.vb: Zaya.Primitives.SettingDescriptorList.GetValueAsInt(String)
+  nameWithType: SettingDescriptorList.GetValueAsInt(string)
+  nameWithType.vb: SettingDescriptorList.GetValueAsInt(String)
+- uid: Zaya.Primitives.SettingDescriptorList.GetValueAsInt*
+  name: GetValueAsInt
+  href: api/Zaya.Primitives.SettingDescriptorList.html#Zaya_Primitives_SettingDescriptorList_GetValueAsInt_
+  commentId: Overload:Zaya.Primitives.SettingDescriptorList.GetValueAsInt
+  isSpec: "True"
+  fullName: Zaya.Primitives.SettingDescriptorList.GetValueAsInt
+  nameWithType: SettingDescriptorList.GetValueAsInt
+- uid: Zaya.Primitives.SettingDescriptorList.GetValueAsString(System.String)
+  name: GetValueAsString(string)
+  href: api/Zaya.Primitives.SettingDescriptorList.html#Zaya_Primitives_SettingDescriptorList_GetValueAsString_System_String_
+  commentId: M:Zaya.Primitives.SettingDescriptorList.GetValueAsString(System.String)
+  name.vb: GetValueAsString(String)
+  fullName: Zaya.Primitives.SettingDescriptorList.GetValueAsString(string)
+  fullName.vb: Zaya.Primitives.SettingDescriptorList.GetValueAsString(String)
+  nameWithType: SettingDescriptorList.GetValueAsString(string)
+  nameWithType.vb: SettingDescriptorList.GetValueAsString(String)
+- uid: Zaya.Primitives.SettingDescriptorList.GetValueAsString*
+  name: GetValueAsString
+  href: api/Zaya.Primitives.SettingDescriptorList.html#Zaya_Primitives_SettingDescriptorList_GetValueAsString_
+  commentId: Overload:Zaya.Primitives.SettingDescriptorList.GetValueAsString
+  isSpec: "True"
+  fullName: Zaya.Primitives.SettingDescriptorList.GetValueAsString
+  nameWithType: SettingDescriptorList.GetValueAsString
 - uid: Zaya.Primitives.StringSettingDescriptor
   name: StringSettingDescriptor
   href: api/Zaya.Primitives.StringSettingDescriptor.html

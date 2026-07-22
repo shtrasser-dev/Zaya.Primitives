@@ -43,6 +43,9 @@ items:
   - uid: Zaya.Primitives.SettingDescriptor
     name: SettingDescriptor
     type: Class
+  - uid: Zaya.Primitives.SettingDescriptorList
+    name: SettingDescriptorList
+    type: Class
   - uid: Zaya.Primitives.StringSettingDescriptor
     name: StringSettingDescriptor
     type: Class

@@ -17,6 +17,7 @@ items:
   - Zaya.Primitives.PasswordSettingDescriptor
   - Zaya.Primitives.PixelFormat
   - Zaya.Primitives.SettingDescriptor
+  - Zaya.Primitives.SettingDescriptorList
   - Zaya.Primitives.StringSettingDescriptor
   - Zaya.Primitives.UrlSettingDescriptor
   langs:
@@ -123,6 +124,12 @@ references:
   name: PasswordSettingDescriptor
   nameWithType: PasswordSettingDescriptor
   fullName: Zaya.Primitives.PasswordSettingDescriptor
+- uid: Zaya.Primitives.SettingDescriptorList
+  commentId: T:Zaya.Primitives.SettingDescriptorList
+  href: Zaya.Primitives.SettingDescriptorList.html
+  name: SettingDescriptorList
+  nameWithType: SettingDescriptorList
+  fullName: Zaya.Primitives.SettingDescriptorList
 - uid: Zaya.Primitives
   commentId: N:Zaya.Primitives
   href: Zaya.html
