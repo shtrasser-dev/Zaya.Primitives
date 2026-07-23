@@ -11,7 +11,7 @@ public sealed class SettingDescriptorList
 {
     private readonly IReadOnlyList<SettingDescriptor> _descriptors;
     private readonly Dictionary<string, SettingDescriptor> _descriptorIndex;
-    private IReadOnlyDictionary<string, object?>? _values;
+    private IReadOnlyDictionary<string, object>? _values;
 
     /// <summary>
     /// Initializes a new instance of the <see cref="SettingDescriptorList"/> class
@@ -40,7 +40,7 @@ public sealed class SettingDescriptorList
     /// to the descriptors' default values when a key is missing or cannot be parsed.
     /// </summary>
     /// <param name="values">User-provided settings (keyed by the same keys as the descriptors).</param>
-    public void Bind(IReadOnlyDictionary<string, object?> values)
+    public void Bind(IReadOnlyDictionary<string, object> values)
     {
         _values = values;
     }

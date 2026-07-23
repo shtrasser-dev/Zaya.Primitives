@@ -128,9 +128,9 @@ items:
   langs:
   - csharp
   - vb
-  name: Bind(IReadOnlyDictionary<string, object?>)
-  nameWithType: SettingDescriptorList.Bind(IReadOnlyDictionary<string, object?>)
-  fullName: Zaya.Primitives.SettingDescriptorList.Bind(System.Collections.Generic.IReadOnlyDictionary<string, object?>)
+  name: Bind(IReadOnlyDictionary<string, object>)
+  nameWithType: SettingDescriptorList.Bind(IReadOnlyDictionary<string, object>)
+  fullName: Zaya.Primitives.SettingDescriptorList.Bind(System.Collections.Generic.IReadOnlyDictionary<string, object>)
   type: Method
   source:
     remote:
@@ -151,7 +151,7 @@ items:
     to the descriptors' default values when a key is missing or cannot be parsed.
   example: []
   syntax:
-    content: public void Bind(IReadOnlyDictionary<string, object?> values)
+    content: public void Bind(IReadOnlyDictionary<string, object> values)
     parameters:
     - id: values
       type: System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object}
